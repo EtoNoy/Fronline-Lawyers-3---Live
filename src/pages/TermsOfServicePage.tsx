@@ -153,7 +153,7 @@ export function TermsOfServicePage() {
                 Frontline Lawyers — Administrative Operations Office<br />
                 Murwillumbah, Northern Rivers, NSW, Australia<br />
                 Telephone: <a href="tel:0421066608" className="text-gold-400 hover:underline">0421 066 608</a><br />
-                Email: <a href="mailto:adam@frontlinelaw.com" className="text-gold-400 hover:underline">adam@frontlinelaw.com</a>
+                Email: <a href="mailto:adam@frontlinelaw.com.au" className="text-gold-400 hover:underline">adam@frontlinelaw.com.au</a>
               </p>
             </section>
           </div>

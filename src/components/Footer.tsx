@@ -23,11 +23,11 @@ export function Footer() {
             </p>
             <div className="mb-3">
               <a 
-                href="mailto:adam@frontlinelaw.com" 
+                href="mailto:adam@frontlinelaw.com.au" 
                 className="inline-flex items-center gap-2 text-gold-300 hover:text-white transition-colors text-sm font-semibold"
               >
                 <Mail className="w-4 h-4 text-gold-300" />
-                <span>adam@frontlinelaw.com</span>
+                <span>adam@frontlinelaw.com.au</span>
               </a>
             </div>
             <a href="tel:0421066608" className="inline-flex items-center gap-2 text-white font-bold hover:text-gold-300 transition-colors text-sm">

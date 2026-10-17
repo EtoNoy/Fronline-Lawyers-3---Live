@@ -127,7 +127,7 @@ export function AboutAdamPage() {
                     </div>
 
                     <a 
-                      href="https://doylesguide.com/" 
+                      href="https://doylesguide.com/leading-criminal-lawyers-regional-nsw-2026/" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       className="inline-flex items-center gap-2 bg-charcoal-900 border border-white/20 hover:border-gold-400 px-4 py-2 text-xs uppercase tracking-widest text-white font-semibold transition-colors"

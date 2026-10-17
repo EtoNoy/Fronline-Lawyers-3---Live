@@ -116,7 +116,7 @@ export function DisclaimerPage() {
               <div className="bg-white/5 border border-white/10 p-6 rounded-sm text-sm space-y-2 mt-4">
                 <p className="font-serif text-white text-base">Frontline Lawyers — Immediate Consultation</p>
                 <p>Telephone Hotline: <a href="tel:0421066608" className="text-gold-400 font-bold hover:underline">0421 066 608</a></p>
-                <p>Email Enquiry: <a href="mailto:adam@frontlinelaw.com" className="text-gold-400 hover:underline">adam@frontlinelaw.com</a></p>
+                <p>Email Enquiry: <a href="mailto:adam@frontlinelaw.com.au" className="text-gold-400 hover:underline">adam@frontlinelaw.com.au</a></p>
               </div>
             </section>
           </div>

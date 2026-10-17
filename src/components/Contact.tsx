@@ -154,8 +154,8 @@ export function Contact() {
                   <div>
                     <h4 className="text-white text-lg font-serif mb-1">Confidential Email</h4>
                     <p className="text-neutral-200 text-sm">
-                      <a href="mailto:adam@frontlinelaw.com" className="hover:text-gold-300 transition-colors">
-                        adam@frontlinelaw.com
+                      <a href="mailto:adam@frontlinelaw.com.au" className="hover:text-gold-300 transition-colors">
+                        adam@frontlinelaw.com.au
                       </a>
                     </p>
                   </div>
@@ -214,8 +214,8 @@ export function Contact() {
                   <div>
                     <h4 className="text-white text-lg font-serif mb-1">Confidential Email</h4>
                     <p className="text-neutral-200 text-sm">
-                      <a href="mailto:adam@frontlinelaw.com" className="hover:text-gold-300 transition-colors">
-                        adam@frontlinelaw.com
+                      <a href="mailto:adam@frontlinelaw.com.au" className="hover:text-gold-300 transition-colors">
+                        adam@frontlinelaw.com.au
                       </a>
                     </p>
                   </div>

@@ -166,7 +166,7 @@ export function PrivacyPolicyPage() {
               <div className="bg-white/5 border border-white/10 p-6 rounded-sm text-sm space-y-2">
                 <p className="font-serif text-white text-base">Frontline Lawyers — Privacy Division</p>
                 <p>Attention: Privacy Compliance Officer</p>
-                <p>Email: <a href="mailto:adam@frontlinelaw.com" className="text-gold-400 hover:underline">adam@frontlinelaw.com</a></p>
+                <p>Email: <a href="mailto:adam@frontlinelaw.com.au" className="text-gold-400 hover:underline">adam@frontlinelaw.com.au</a></p>
                 <p>Jurisdiction: Northern Rivers, NSW, Australia</p>
               </div>
             </section>
