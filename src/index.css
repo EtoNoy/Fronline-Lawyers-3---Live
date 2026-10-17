@@ -25,14 +25,36 @@ body {
   @apply bg-charcoal-950 text-neutral-100 antialiased font-sans;
 }
 
-/* Ensure all cards in Contact and across sections are immediately 100% visible on mobile and tablet without animation delays */
-@media (max-width: 1023px) {
-  #contact,
-  #contact *,
-  .glow-card,
-  .glow-card * {
-    opacity: 1 !important;
-    visibility: visible !important;
-  }
+/* Luminous gold glowing effect for contact form on ALL screen sizes */
+.glow-card {
+  position: relative;
+  box-shadow: 0 0 35px -5px rgba(212, 175, 55, 0.4), 0 10px 30px rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(212, 175, 55, 0.4) !important;
+  transition: box-shadow 0.4s ease, border-color 0.4s ease;
 }
 
+.glow-card:hover {
+  box-shadow: 0 0 55px 0px rgba(212, 175, 55, 0.6), 0 20px 50px rgba(0, 0, 0, 0.85);
+  border-color: rgba(212, 175, 55, 0.7) !important;
+}
+
+.glow-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0.8;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+  box-shadow: inset 0 0 25px rgba(212, 175, 55, 0.2), 0 0 45px rgba(212, 175, 55, 0.35);
+  z-index: 1;
+}
+
+.glow-card:hover::after {
+  opacity: 1;
+}
+
+.glow-card > * {
+  position: relative;
+  z-index: 10;
+}

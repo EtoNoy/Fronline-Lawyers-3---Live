@@ -101,7 +101,7 @@ export function DisclaimerPage() {
                 Adam Ashley is admitted as a legal practitioner in the Supreme Court of New South Wales and is authorized to practice throughout Australia.
               </p>
               <p>
-                Our legal practice focuses primarily on criminal defense matters within the courts of New South Wales and Queensland. This website is not intended to advertise or solicit legal services in any jurisdiction where our practitioners are not licensed or authorized to practice.
+                Our legal practice focuses primarily on criminal defence matters within the courts of New South Wales and Queensland. This website is not intended to advertise or solicit legal services in any jurisdiction where our practitioners are not licensed or authorized to practice.
               </p>
             </section>
 
@@ -111,7 +111,7 @@ export function DisclaimerPage() {
                 If you have been arrested, are currently in police custody, have had your bail refused, are facing an active police interview, or have a critical court deadline, you must not rely on online resources to manage your situation.
               </p>
               <p>
-                Please contact a qualified criminal defense attorney immediately to obtain urgent legal representation and protect your rights. Our crisis consultation contact line is available directly at:
+                Please contact a qualified criminal defence lawyer immediately to obtain urgent legal representation and protect your rights. Our crisis consultation contact line is available directly at:
               </p>
               <div className="bg-white/5 border border-white/10 p-6 rounded-sm text-sm space-y-2 mt-4">
                 <p className="font-serif text-white text-base">Frontline Lawyers — Immediate Consultation</p>

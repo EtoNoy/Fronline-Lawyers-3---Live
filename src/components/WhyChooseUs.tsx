@@ -85,24 +85,9 @@ export function WhyChooseUs() {
 
               return (
                 <Link to="/why-choose-us" key={i} className="group">
-                  {isDesktop ? (
-                    <motion.div
-                      initial={{ opacity: 0, y: 20 }}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 0.4, delay: i * 0.1 }}
-                      className="bg-charcoal-800/90 border border-white/15 p-6 lg:hover:border-gold-400 lg:hover:bg-charcoal-800 lg:transition-all lg:duration-300 h-full flex flex-col shadow-lg rounded-sm cursor-pointer"
-                    >
-                      {cardInner}
-                    </motion.div>
-                  ) : (
-                    <div
-                      className="bg-charcoal-800/90 border border-white/15 p-6 h-full flex flex-col shadow-lg rounded-sm cursor-pointer opacity-100"
-                      style={{ opacity: 1, transform: 'none' }}
-                    >
-                      {cardInner}
-                    </div>
-                  )}
+                  <div className="bg-charcoal-800/90 border border-white/15 p-6 hover:border-gold-400 hover:bg-charcoal-800 transition-all duration-300 h-full flex flex-col shadow-lg rounded-sm cursor-pointer">
+                    {cardInner}
+                  </div>
                 </Link>
               );
             })}

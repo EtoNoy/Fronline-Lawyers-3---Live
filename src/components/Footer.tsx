@@ -34,6 +34,9 @@ export function Footer() {
               <Phone className="w-4 h-4 text-gold-300" />
               <span>0421 066 608</span>
             </a>
+            <p className="text-neutral-400 text-xs mt-3 leading-relaxed">
+              Mailing Address:<br />P.O Box 104 Murwillumbah, 2484, NSW
+            </p>
           </div>
 
           <div>
@@ -51,13 +54,13 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-white font-serif mb-6 text-lg font-bold">Firm & Defense</h4>
+            <h4 className="text-white font-serif mb-6 text-lg font-bold">Firm & Defence</h4>
             <ul className="space-y-3 text-sm text-neutral-200 font-medium">
               <li><a href="/#about" className="hover:text-gold-300 transition-colors">About Adam Ashley</a></li>
               <li><Link to="/why-choose-us" className="hover:text-gold-300 transition-colors">Why Choose Us</Link></li>
-              <li><Link to="/reviews" className="hover:text-gold-300 transition-colors">Proven Case Results</Link></li>
+              <li><Link to="/reviews" className="hover:text-gold-300 transition-colors">Reviews</Link></li>
               <li><Link to="/faqs" className="hover:text-gold-300 transition-colors">Criminal Law FAQs</Link></li>
-              <li><a href="/#contact" className="hover:text-gold-300 transition-colors">Contact Defence Counsel</a></li>
+              <li><a href="/#contact" className="hover:text-gold-300 transition-colors">Contact Us</a></li>
             </ul>
           </div>
 

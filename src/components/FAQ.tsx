@@ -10,7 +10,7 @@ const faqs = [
   },
   {
     q: "The police want to interview me. What should I do?",
-    a: "Do not participate in a police interview. Under Section 89 of the Evidence Act, you have an absolute right to silence. Anything you say in a recorded interview (ERISP) will be used to build a case against you. Contact Frontline Lawyers immediately so our solicitors can advise you on your rights, speak directly with the investigating officers, and attend the station on your behalf."
+    a: "Under Section 89 of the Evidence Act, individuals have the right to silence and are not required to participate in an electronically recorded interview (ERISP). Statements made in interviews become part of the prosecution brief. Frontline Lawyers provides direct legal representation to speak directly with investigating officers and attend police stations across Northern Rivers and South East Queensland."
   },
   {
     q: "What is the difference between pleading guilty and going to trial?",

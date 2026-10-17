@@ -1,0 +1,6 @@
+# Robots.txt for Frontline Lawyers (frontlinelawyers.com.au)
+User-agent: *
+Allow: /
+
+# Sitemap Index
+Sitemap: https://frontlinelawyers.com.au/sitemap.xml

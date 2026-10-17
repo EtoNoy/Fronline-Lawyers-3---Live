@@ -1,54 +1,33 @@
-import { motion } from 'motion/react';
 import { ArrowRight, ShieldAlert } from 'lucide-react';
 // @ts-ignore
 import frontlineBackground from '../assets/images/Frontline Lawyers Image (1).jpg';
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-start pt-16 sm:pt-20 overflow-hidden bg-charcoal-950">
+    <section className="relative min-h-screen flex items-start sm:items-center justify-start pt-32 sm:pt-20 overflow-hidden bg-charcoal-950">
       {/* Background image */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-100"
         style={{ backgroundImage: `url("${frontlineBackground}")` }}
       ></div>
       
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full">
-        <div className="max-w-3xl text-left flex flex-col items-start -mt-8 sm:mt-0">
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.1 }}
-            className="flex items-center gap-2 mb-4 sm:mb-8 justify-start"
-          >
-            <ShieldAlert className="w-5 h-5 text-gold-600 drop-shadow-sm" />
-            <span className="text-gold-600 font-bold tracking-widest uppercase text-sm drop-shadow-sm">Northern Rivers NSW & South East Queensland Criminal Defense</span>
-          </motion.div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full pt-1 sm:pt-0">
+        <div className="max-w-3xl text-left flex flex-col items-start mt-0">
+          <div className="flex items-center gap-2 mb-2 sm:mb-8 justify-start">
+            <ShieldAlert className="w-4 h-4 sm:w-5 sm:h-5 text-gold-600 drop-shadow-sm shrink-0" />
+            <span className="text-gold-600 font-bold tracking-widest uppercase text-xs sm:text-sm drop-shadow-sm">Northern Rivers NSW & South East Queensland Criminal Defence</span>
+          </div>
 
-          <motion.h1 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="flex flex-col items-start mb-4 sm:mb-8 select-none text-left"
-          >
+          <h1 className="flex flex-col items-start mb-2.5 sm:mb-8 select-none text-left">
             <span className="font-serif text-5xl md:text-7xl tracking-[0.12em] uppercase text-charcoal-950 font-bold leading-none block">Frontline</span>
-            <span className="text-xs md:text-sm tracking-[0.38em] uppercase text-gold-600 font-sans font-bold mt-2.5 sm:mt-4 leading-none block drop-shadow-sm">Lawyers</span>
-          </motion.h1>
+            <span className="text-xs md:text-sm tracking-[0.38em] uppercase text-gold-600 font-sans font-bold mt-2 sm:mt-4 leading-none block drop-shadow-sm">Lawyers</span>
+          </h1>
 
-          <motion.p 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="text-sm sm:text-base md:text-xl text-neutral-800 mb-5 sm:mb-8 md:mb-10 max-w-2xl font-semibold leading-relaxed text-left drop-shadow-sm"
-          >
+          <p className="text-xs sm:text-base md:text-xl text-neutral-800 mb-4 sm:mb-8 md:mb-10 max-w-2xl font-semibold leading-relaxed text-left drop-shadow-sm">
             Straightforward legal representation to protect your rights, livelihood, and future. From our base in Murwillumbah, we represent clients throughout the Northern Rivers NSW and South East Queensland, appearing in local and magistrates courts across Southport, Coolangatta, Tweed Heads, Ballina, Byron Bay, Mullumbimby, and Lismore.
-          </motion.p>
+          </p>
 
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            className="flex flex-col sm:flex-row gap-4 justify-start w-auto"
-          >
+          <div className="flex flex-col sm:flex-row gap-4 justify-start w-auto">
             <a 
               href="#contact" 
               className="group inline-flex items-center justify-center gap-2.5 bg-black border border-black text-white px-5 py-2.5 sm:px-8 sm:py-4 text-[11px] sm:text-xs font-bold tracking-widest uppercase hover:bg-charcoal-900 transition-colors duration-300 shadow-lg rounded-sm w-auto self-start"
@@ -62,7 +41,7 @@ export function Hero() {
             >
               Call: 0421 066 608
             </a>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>

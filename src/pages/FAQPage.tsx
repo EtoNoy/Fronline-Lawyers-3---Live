@@ -221,7 +221,7 @@ export function FAQPage() {
         },
         {
           '@type': 'FAQPage',
-          'name': 'Frontline Lawyers Criminal Defense Legal FAQs',
+          'name': 'Frontline Lawyers Criminal Defence Legal FAQs',
           'description': 'Comprehensive criminal law FAQ directory covering police interviews, bail, drink driving, assault, guns & weapons, drug offences, and court processes in NSW and South East Queensland.',
           'mainEntity': ALL_FAQS.map(faq => ({
             '@type': 'Question',
@@ -240,8 +240,8 @@ export function FAQPage() {
   return (
     <div className="min-h-screen bg-charcoal-950 text-neutral-100 flex flex-col font-sans selection:bg-gold-500/20 selection:text-gold-300">
       <SEO 
-        title="Criminal Defense FAQs | Frontline Lawyers | Adam Ashley"
-        description="Explore comprehensive criminal defense FAQs across NSW and South East Queensland. Clear information on police searches, bail, drink driving, weapons, drugs, and court appearances."
+        title="Criminal Defence FAQs | Frontline Lawyers | Adam Ashley"
+        description="Explore comprehensive criminal defence FAQs across NSW and South East Queensland. Clear information on police searches, bail, drink driving, weapons, drugs, and court appearances."
         canonicalPath="/faqs"
         schema={faqSchema}
       />
@@ -259,7 +259,7 @@ export function FAQPage() {
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gold-400/15 border border-gold-400/30 text-gold-300 text-xs uppercase tracking-widest font-bold mb-5">
               <BookOpen className="w-4 h-4 text-gold-300" />
-              <span>Criminal Defense Knowledge Base</span>
+              <span>Criminal Defence Knowledge Base</span>
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif text-white tracking-tight leading-tight mb-6 font-bold">
@@ -268,7 +268,7 @@ export function FAQPage() {
             </h1>
 
             <p className="text-base sm:text-lg text-neutral-200 font-normal leading-relaxed mb-8">
-              Straightforward answers to critical criminal defense and court questions. 
+              Straightforward answers to critical criminal defence and court questions. 
               Search using everyday language, common phrases, or legal terms across Northern Rivers NSW and South East Queensland.
             </p>
 

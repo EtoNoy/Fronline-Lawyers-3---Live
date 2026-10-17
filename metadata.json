@@ -1,6 +1,6 @@
 {
   "name": "Elite Defense Law",
-  "description": "Premium criminal defense law firm website built with React and Tailwind CSS.",
+  "description": "Premium criminal defence law firm website built with React and Tailwind CSS.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

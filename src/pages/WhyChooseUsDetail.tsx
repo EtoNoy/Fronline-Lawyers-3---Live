@@ -18,11 +18,7 @@ export function WhyChooseUsDetail() {
               <ArrowLeft className="w-4 h-4" /> Back to Home
             </Link>
             
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-            >
+            <div>
               <h1 className="text-4xl md:text-6xl font-serif text-white mb-6 leading-tight">WHY CHOOSE US</h1>
               <div className="w-24 h-1.5 bg-gold-400 mb-8 rounded-full"></div>
               
@@ -105,7 +101,7 @@ export function WhyChooseUsDetail() {
                   </a>
                 </div>
               </div>
-            </motion.div>
+            </div>
           </div>
         </section>
       </main>

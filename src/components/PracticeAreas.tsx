@@ -19,9 +19,6 @@ export function PracticeAreas() {
           <p className="text-neutral-100 max-w-3xl mx-auto text-base sm:text-lg font-normal leading-relaxed mb-4">
             We focus exclusively on criminal defence across Northern Rivers NSW and South East Queensland courts. Our priority is safeguarding your rights from the very first police contact and fighting for complete case resolution.
           </p>
-          <p className="text-gold-300/90 text-sm font-medium tracking-wide">
-            Do not speak to police or enter a plea unrepresented. Exercise your right to silence and contact a lawyer immediately.
-          </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
@@ -52,24 +49,9 @@ export function PracticeAreas() {
 
             return (
               <Link to={`/practice-areas/${practice.slug}`} key={practice.slug} className="group">
-                {isDesktop ? (
-                  <motion.div 
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.4, delay: Math.min((index % 4) * 0.08, 0.3) }}
-                    className="p-6 bg-charcoal-800/90 border border-white/15 lg:hover:border-gold-400 lg:hover:bg-charcoal-800 lg:transition-all lg:duration-300 h-full flex flex-col shadow-lg rounded-sm"
-                  >
-                    {cardInner}
-                  </motion.div>
-                ) : (
-                  <div 
-                    className="p-6 bg-charcoal-800/90 border border-white/15 h-full flex flex-col shadow-lg rounded-sm opacity-100"
-                    style={{ opacity: 1, transform: 'none' }}
-                  >
-                    {cardInner}
-                  </div>
-                )}
+                <div className="p-6 bg-charcoal-800/90 border border-white/15 hover:border-gold-400 hover:bg-charcoal-800 transition-all duration-300 h-full flex flex-col shadow-lg rounded-sm">
+                  {cardInner}
+                </div>
               </Link>
             );
           })}

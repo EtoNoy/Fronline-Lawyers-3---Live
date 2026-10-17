@@ -34,17 +34,17 @@ export function PrivacyPolicyPage() {
             <section className="space-y-4">
               <h2 className="text-2xl font-serif text-white">2. Scope of Information Gathered</h2>
               <p>
-                The nature of relationship-based criminal defense and advocacy demands the processing of complex information. Depending on the depth of your communication with us, we may collect the following classes of data:
+                The nature of relationship-based criminal defence and advocacy demands the processing of complex information. Depending on the depth of your communication with us, we may collect the following classes of data:
               </p>
               <ul className="list-disc pl-6 space-y-2 text-neutral-400">
                 <li>
-                  <strong className="text-white">Identity Credentials:</strong> Full legal name, title, date of birth, proof of identification (e.g., driver's licenses, passports, or government-issued identities).
+                  <strong className="text-white">Identity Credentials:</strong> Full legal name, title, date of birth, proof of identification (e.g., driver's licences, passports, or government-issued identities).
                 </li>
                 <li>
                   <strong className="text-white">Contact Anchors:</strong> Residential addresses, billing addresses, direct telephone contacts, secure personal email addresses, and alternative family contacts.
                 </li>
                 <li>
-                  <strong className="text-white">Case-Related Legal Matter Data:</strong> Court indexes, charging sheets, police statements, summons, current bail configurations, historical offense profiles, and ongoing law enforcement communications.
+                  <strong className="text-white">Case-Related Legal Matter Data:</strong> Court indexes, charging sheets, police statements, summons, current bail configurations, historical offence profiles, and ongoing law enforcement communications.
                 </li>
                 <li>
                   <strong className="text-white">Sensitive Information:</strong> By nature of our duties, we may collect sensitive data as defined under Section 6 of the Privacy Act, including but not limited to racial or ethnic origins, political beliefs, trade union memberships, physical or psychiatric medical histories, substance rehabilitation profiles, and criminal records.
@@ -86,7 +86,7 @@ export function PrivacyPolicyPage() {
                   Evaluating the viability of representation, reviewing conflict-of-interest databases, and preparing comprehensive representation pathways.
                 </li>
                 <li>
-                  Constructing active court-room defense strategies, filing legal motions, drafting petitions, and advocating at correctional jurisdictions.
+                  Constructing active court-room defence strategies, filing legal motions, drafting petitions, and advocating at correctional jurisdictions.
                 </li>
                 <li>
                   Issuing administrative communications, updates to service agreements, and standard corporate accounting.

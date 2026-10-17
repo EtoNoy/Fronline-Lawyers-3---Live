@@ -77,7 +77,7 @@ function getHardcodedConciergeResponse(userInput: string): string {
     lower.includes('statement') ||
     lower.includes('silence')
   ) {
-    return "Under Section 89 of the Evidence Act and LEPRA, you are legally required to provide only your name, address, and driver licence (if driving). You have an absolute right to silence and are not required to participate in an electronically recorded interview (ERISP) or answer police questions. Anything you say will be recorded and used against you in court.\n\nNever attend a police interview unrepresented. Principal Counsel Adam Ashley attends police stations across Northern Rivers and South East Queensland to protect clients' rights. You should contact Frontline Lawyers before answering any questions.\n[SHOW_CONTACT_BUTTON]";
+    return "Under Section 89 of the Evidence Act and LEPRA, individuals have the right to silence and are legally required to provide only their name, address, and driver licence (if driving). You are not required to participate in an electronically recorded interview (ERISP) or answer police questions.\n\nFrontline Lawyers provides prompt police station attendance and legal representation across Northern Rivers NSW and South East Queensland. Contact our defence team to arrange counsel.\n[SHOW_CONTACT_BUTTON]";
   }
 
   // 2. Court appearance / court date / summons / mention / trial
@@ -646,7 +646,7 @@ export function ChatbotWidget({ onInquirySubmitted }: ChatbotWidgetProps = {}) {
                       <ul className="list-disc pl-4 space-y-1">
                         <li>Our partners will review your enquiry details.</li>
                         <li>We will contact you at {phone} to arrange an initial conference.</li>
-                        <li>Do not participate in any police interviews before we speak.</li>
+                        <li>All matter details remain strictly confidential under legal professional privilege.</li>
                       </ul>
                     </div>
 

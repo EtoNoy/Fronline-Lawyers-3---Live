@@ -55,21 +55,10 @@ export function ReviewsPage() {
                 </>
               );
 
-              return isDesktop ? (
-                <motion.div
-                  key={i}
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.5, delay: i * 0.05 }}
-                  className="bg-charcoal-800 p-6 sm:p-7 border-l-2 border-gold-400 relative flex flex-col shadow-lg justify-between"
-                >
-                  {reviewInner}
-                </motion.div>
-              ) : (
+              return (
                 <div
                   key={i}
-                  className="bg-charcoal-800 p-6 sm:p-7 border-l-2 border-gold-400 relative flex flex-col shadow-lg justify-between opacity-100"
-                  style={{ opacity: 1, transform: 'none' }}
+                  className="bg-charcoal-800 p-6 sm:p-7 border-l-2 border-gold-400 relative flex flex-col shadow-lg justify-between hover:border-gold-300 transition-colors"
                 >
                   {reviewInner}
                 </div>

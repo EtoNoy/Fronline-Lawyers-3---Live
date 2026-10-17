@@ -43,7 +43,7 @@ export function Navbar() {
         <nav className="hidden md:flex items-center md:ml-auto lg:ml-0 lg:mx-auto justify-center gap-6 lg:gap-7">
           <a href="/#about" className={`text-xs uppercase tracking-widest transition-colors ${isScrolled ? 'text-neutral-300 hover:text-gold-400' : 'text-charcoal-950 hover:text-gold-500 font-bold'}`}>About</a>
           <a href="/#practice-areas" className={`text-xs uppercase tracking-widest transition-colors ${isScrolled ? 'text-neutral-300 hover:text-gold-400' : 'text-charcoal-950 hover:text-gold-500 font-bold'}`}>Expertise</a>
-          <Link to="/reviews" className={`text-xs uppercase tracking-widest transition-colors ${isScrolled ? 'text-neutral-300 hover:text-gold-400' : 'text-charcoal-950 hover:text-gold-500 font-bold'}`}>Results</Link>
+          <Link to="/reviews" className={`text-xs uppercase tracking-widest transition-colors ${isScrolled ? 'text-neutral-300 hover:text-gold-400' : 'text-charcoal-950 hover:text-gold-500 font-bold'}`}>REVIEWS</Link>
           <Link to="/faqs" className={`text-xs uppercase tracking-widest transition-colors ${isScrolled ? 'text-neutral-300 hover:text-gold-400' : 'text-charcoal-950 hover:text-gold-500 font-bold'}`}>FAQ's</Link>
           <a href="/#contact" className={`text-xs uppercase tracking-widest transition-colors ${isScrolled ? 'text-neutral-300 hover:text-gold-400' : 'text-charcoal-950 hover:text-gold-500 font-bold'}`}>Contact</a>
         </nav>
@@ -70,7 +70,7 @@ export function Navbar() {
             >
               <a href="/#about" className="text-sm uppercase tracking-widest text-neutral-300 border-b border-white/5 pb-4" onClick={() => setMobileMenuOpen(false)}>About</a>
               <a href="/#practice-areas" className="text-sm uppercase tracking-widest text-neutral-300 border-b border-white/5 pb-4" onClick={() => setMobileMenuOpen(false)}>Expertise</a>
-              <Link to="/reviews" className="text-sm uppercase tracking-widest text-neutral-300 border-b border-white/5 pb-4" onClick={() => setMobileMenuOpen(false)}>Results</Link>
+              <Link to="/reviews" className="text-sm uppercase tracking-widest text-neutral-300 border-b border-white/5 pb-4" onClick={() => setMobileMenuOpen(false)}>REVIEWS</Link>
               <Link to="/faqs" className="text-sm uppercase tracking-widest text-neutral-300 border-b border-white/5 pb-4" onClick={() => setMobileMenuOpen(false)}>FAQ's</Link>
               <a href="/#contact" className="text-sm uppercase tracking-widest text-neutral-300 border-b border-white/5 pb-4" onClick={() => setMobileMenuOpen(false)}>Contact</a>
               <a href="tel:0421066608" className="flex justify-center items-center gap-2 bg-gold-400 text-white px-5 py-4 font-bold uppercase tracking-widest text-xs mt-2">

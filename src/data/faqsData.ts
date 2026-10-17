@@ -18,7 +18,7 @@ export const FAQ_CATEGORIES = [
   'Guns & Weapons (Firearms)',
   'Fraud & Financial Crime',
   'Court Process & Sentencing',
-  'Legal Fees & Defense Team'
+  'Legal Fees & Defence Team'
 ] as const;
 
 export type FAQCategory = typeof FAQ_CATEGORIES[number];
@@ -79,7 +79,7 @@ export const ALL_FAQS: FAQItem[] = [
     id: 'police-search-warrant-home',
     category: 'Police & Arrest Rights',
     question: 'What should I do if police knock on my door with a search warrant (raid)?',
-    answer: 'First, request to inspect the search warrant before allowing entry. Confirm the address listed, verify that it is signed and dated by an authorized justice, and note the specific items police are authorized to search for. You are not required to answer informal questions or participate in an interview during the execution of the warrant. Contact Frontline Lawyers immediately so our defense team can monitor the search, object to unlawful seizures, and protect privileged documents.',
+    answer: 'First, request to inspect the search warrant before allowing entry. Confirm the address listed, verify that it is signed and dated by an authorized justice, and note the specific items police are authorized to search for. You are not required to answer informal questions or participate in an interview during the execution of the warrant. Contact Frontline Lawyers immediately so our defence team can monitor the search, object to unlawful seizures, and protect privileged documents.',
     keywords: ['search warrant', 'police raid', 'door knock', 'house search', 'LEPRA warrant', 'cops raiding house', 'dawn raid', 'warrant inspection'],
     slangTags: ['#police-raid', '#search-warrant', '#cops-at-the-door', '#house-raid', '#door-knock']
   },
@@ -96,12 +96,12 @@ export const ALL_FAQS: FAQItem[] = [
     slangTags: ['#blowing-over', '#dui', '#drink-driving', '#rbt', '#over-the-limit', '#blew-over']
   },
   {
-    id: 'traffic-medical-cannabis-defense',
+    id: 'traffic-medical-cannabis-defence',
     category: 'Drink & Drug Driving',
     question: 'Can I be charged with drug driving if I have a legal medical weed prescription?',
-    answer: 'Yes. Under Section 111 of the Road Transport Act 2013 (NSW), it is an offence to drive with ANY detectable presence of illicit drugs (including THC/cannabis) in your oral fluid, blood, or urine. Unlike other states like Tasmania, NSW law currently does NOT provide an automatic statutory defense or exemption for legally prescribed medicinal cannabis patients. Even if you consumed medicinal cannabis days earlier and are completely unimpaired, a positive roadside tongue swipe can trigger prosecution. Adam Ashley provides expert defense representation to protect your licence.',
+    answer: 'Yes. Under Section 111 of the Road Transport Act 2013 (NSW), it is an offence to drive with ANY detectable presence of illicit drugs (including THC/cannabis) in your oral fluid, blood, or urine. Unlike other states like Tasmania, NSW law currently does NOT provide an automatic statutory defence or exemption for legally prescribed medicinal cannabis patients. Even if you consumed medicinal cannabis days earlier and are completely unimpaired, a positive roadside tongue swipe can trigger prosecution. Adam Ashley provides expert defence representation to protect your licence.',
     keywords: ['medical cannabis driving', 'prescribed THC', 'roadside drug test', 'tongue swipe', 'Section 111', 'medical weed', 'medicinal marijuana', 'pot prescription'],
-    slangTags: ['#medical-weed-driving', '#tongue-swipe', '#prescribed-cannabis', '#drug-driving-defense', '#thc-testing']
+    slangTags: ['#medical-weed-driving', '#tongue-swipe', '#prescribed-cannabis', '#drug-driving-defence', '#thc-testing']
   },
   {
     id: 'traffic-high-range-penalties',
@@ -151,7 +151,7 @@ export const ALL_FAQS: FAQItem[] = [
     id: 'bail-act-show-cause',
     category: 'Bail Applications',
     question: 'What does "Show Cause" mean under the NSW Bail Act 2013?',
-    answer: 'Under Section 16A of the Bail Act 2013 (NSW), if you are charged with a "show cause offence" (such as serious commercial drug supply, aggravated sexual assault, firearms offences, armed robbery, or serious violent offences), the court MUST refuse bail unless the accused person shows cause why their detention is not justified. This is a reverse legal burden. Adam Ashley crafts rigorous show cause submissions demonstrating compelling factors like strength of defense, young age, medical needs, delay, or an unblemished record.',
+    answer: 'Under Section 16A of the Bail Act 2013 (NSW), if you are charged with a "show cause offence" (such as serious commercial drug supply, aggravated sexual assault, firearms offences, armed robbery, or serious violent offences), the court MUST refuse bail unless the accused person shows cause why their detention is not justified. This is a reverse legal burden. Adam Ashley crafts rigorous show cause submissions demonstrating compelling factors like strength of defence, young age, medical needs, delay, or an unblemished record.',
     keywords: ['show cause bail', 'Bail Act 2013', 'reverse burden', 'serious criminal charge', 'release', 'locked up', 'behind bars', 'remand', 'getting out'],
     slangTags: ['#show-cause-bail', '#locked-up', '#behind-bars', '#bail-application', '#remand-release']
   },
@@ -175,7 +175,7 @@ export const ALL_FAQS: FAQItem[] = [
     id: 'bail-weekend-avl-court',
     category: 'Bail Applications',
     question: 'What happens at a Weekend Bail Court via Audio Visual Link (AVL)?',
-    answer: 'If you are arrested on a Friday night, weekend, or public holiday in the Northern Rivers (e.g. Tweed, Byron, or Lismore), police will hold you in cells and list your matter before the centralized Weekend Bail Court (often Parramatta Bail Court or regional AVL hub). The hearing takes place by Audio Visual Link. Having private defense counsel appear remotely or via agent ensures that detailed bail material, surety verification, and residential addresses are properly presented to the magistrate.',
+    answer: 'If you are arrested on a Friday night, weekend, or public holiday in the Northern Rivers (e.g. Tweed, Byron, or Lismore), police will hold you in cells and list your matter before the centralized Weekend Bail Court (often Parramatta Bail Court or regional AVL hub). The hearing takes place by Audio Visual Link. Having private defence counsel appear remotely or via agent ensures that detailed bail material, surety verification, and residential addresses are properly presented to the magistrate.',
     keywords: ['weekend bail court', 'Parramatta bail court', 'AVL bail', 'video link', 'after hours arrest', 'saturday court', 'sunday arrest', 'locked up weekend'],
     slangTags: ['#weekend-bail', '#parramatta-bail', '#avl-video-link', '#after-hours-arrest', '#weekend-cells']
   },
@@ -203,7 +203,7 @@ export const ALL_FAQS: FAQItem[] = [
     id: 'assault-pub-fight-brawl',
     category: 'Assault & Violent Offences',
     question: 'What happens if you get into a fight, pub brawl, or scrap in NSW?',
-    answer: 'Physical altercations at licensed premises, clubs, or on the street are prosecuted vigorously in NSW. Charges range from Common Assault (Section 61 Crimes Act - max 2 years) to Affray (Section 93C Crimes Act - using or threatening unlawful violence causing a person of reasonable firmness to fear for safety - max 10 years). If injuries occur, charges elevate to Assault Occasioning Actual Bodily Harm (AOABH - max 5 to 7 years) or Wounding/GBH. Our defense team scrutinizes CCTV footage, bouncer statements, and self-defense evidence to dismiss charges.',
+    answer: 'Physical altercations at licensed premises, clubs, or on the street are prosecuted vigorously in NSW. Charges range from Common Assault (Section 61 Crimes Act - max 2 years) to Affray (Section 93C Crimes Act - using or threatening unlawful violence causing a person of reasonable firmness to fear for safety - max 10 years). If injuries occur, charges elevate to Assault Occasioning Actual Bodily Harm (AOABH - max 5 to 7 years) or Wounding/GBH. Our defence team scrutinizes CCTV footage, bouncer statements, and self-defence evidence to dismiss charges.',
     keywords: ['pub fight', 'brawl', 'scrap', 'punch on', 'bar fight', 'affray', 'common assault', 'coward punch', 'bashing', 'glassing', 'king hit'],
     slangTags: ['#pub-fight', '#bar-brawl', '#punch-on', '#scrap', '#affray', '#coward-punch']
   },
@@ -216,12 +216,12 @@ export const ALL_FAQS: FAQItem[] = [
     slangTags: ['#common-assault', '#aoabh', '#gbh', '#wounding', '#grievous-bodily-harm']
   },
   {
-    id: 'assault-self-defense-laws',
+    id: 'assault-self-defence-laws',
     category: 'Assault & Violent Offences',
-    question: 'Can I claim self-defense if I hit or punched someone first during an altercation?',
-    answer: 'Yes. Under Section 418 of the Crimes Act 1900 (NSW), pre-emptive force can be lawful self-defense if you genuinely believed an imminent attack was about to occur. The legal test is: (1) Did the accused genuinely believe their conduct was necessary to defend themselves or another person? (Subjective test), and (2) Was their conduct a reasonable response in the circumstances as they perceived them? (Objective test). Once evidence of self-defense is raised, the prosecution bears the heavy burden of disproving it beyond reasonable doubt.',
-    keywords: ['self defense', 'hit first', 'punched first', 'pre-emptive strike', 'Section 418', 'reasonable force', 'justification', 'not guilty', 'trial'],
-    slangTags: ['#self-defense', '#hit-first', '#reasonable-force', '#section-418', '#not-guilty-assault']
+    question: 'Can I claim self-defence if I hit or punched someone first during an altercation?',
+    answer: 'Yes. Under Section 418 of the Crimes Act 1900 (NSW), pre-emptive force can be lawful self-defence if you genuinely believed an imminent attack was about to occur. The legal test is: (1) Did the accused genuinely believe their conduct was necessary to defend themselves or another person? (Subjective test), and (2) Was their conduct a reasonable response in the circumstances as they perceived them? (Objective test). Once evidence of self-defence is raised, the prosecution bears the heavy burden of disproving it beyond reasonable doubt.',
+    keywords: ['self defence', 'hit first', 'punched first', 'pre-emptive strike', 'Section 418', 'reasonable force', 'justification', 'not guilty', 'trial'],
+    slangTags: ['#self-defence', '#hit-first', '#reasonable-force', '#section-418', '#not-guilty-assault']
   },
   {
     id: 'assault-victim-withdraw-statement',
@@ -283,9 +283,9 @@ export const ALL_FAQS: FAQItem[] = [
     id: 'drugs-ice-coke-pills-possession',
     category: 'Drug Charges',
     question: 'What happens if police catch you with personal gear, ice, coke, or pills?',
-    answer: 'Possession of prohibited drugs such as methylamphetamine (ice / gear / shard), cocaine (coke / rack / bags), or MDMA (ecstasy / caps / pills) is prosecuted under Section 10 of the DMTA. While classified as summary matters in the Local Court for personal use quantities, magistrates take hard drugs seriously. Defenses focus on whether you had legal knowledge and exclusive physical control, whether the search was lawful under LEPRA, or preparing comprehensive rehabilitation material to achieve a non-conviction outcome.',
+    answer: 'Possession of prohibited drugs such as methylamphetamine (ice / gear / shard), cocaine (coke / rack / bags), or MDMA (ecstasy / caps / pills) is prosecuted under Section 10 of the DMTA. While classified as summary matters in the Local Court for personal use quantities, magistrates take hard drugs seriously. Defences focus on whether you had legal knowledge and exclusive physical control, whether the search was lawful under LEPRA, or preparing comprehensive rehabilitation material to achieve a non-conviction outcome.',
     keywords: ['ice', 'meth', 'coke', 'cocaine', 'gear', 'rack', 'caps', 'pills', 'mdma', 'ecstasy', 'shard', 'speed', 'personal gear', 'caught with drugs'],
-    slangTags: ['#ice-charges', '#coke-possession', '#gear', '#mdma-caps', '#personal-drugs-defense']
+    slangTags: ['#ice-charges', '#coke-possession', '#gear', '#mdma-caps', '#personal-drugs-defence']
   },
   {
     id: 'drugs-deemed-supply',
@@ -325,7 +325,7 @@ export const ALL_FAQS: FAQItem[] = [
     question: 'Can I be charged with drug possession if illicit substances were found in a shared house?',
     answer: 'Yes, police often charge everyone on the premises when drugs are discovered in shared spaces like living rooms, kitchen cupboards, or shared cars. However, under the leading High Court authority He Kaw Teh and NSW case law (such as Filipetti), the prosecution must prove beyond reasonable doubt that you had both physical custody/control AND actual knowledge of the existence and illicit nature of the drug. If drugs were in a common area accessible to multiple housemates or visitors, we frequently achieve dismissals.',
     keywords: ['exclusive possession', 'shared house drugs', 'Filipetti', 'He Kaw Teh', 'constructive possession', 'housemates drugs', 'drugs in flat'],
-    slangTags: ['#shared-house-drugs', '#exclusive-possession', '#he-kaw-teh', '#filipetti-defense']
+    slangTags: ['#shared-house-drugs', '#exclusive-possession', '#he-kaw-teh', '#filipetti-defence']
   },
 
   // ==========================================
@@ -335,7 +335,7 @@ export const ALL_FAQS: FAQItem[] = [
     id: 'weapons-unlicensed-guns-firearms',
     category: 'Guns & Weapons (Firearms)',
     question: 'Guns in NSW: What are the penalties for possessing an unregistered gun or unlicensed firearm?',
-    answer: 'Under the Firearms Act 1996 (NSW), possessing an unauthorized or unregistered firearm (including rifles, shotguns, handguns, and pistols) is treated with extreme severity. Possessing an unregistered firearm (Section 36) carries up to 5 years imprisonment in the Local/District Court. Possessing an unauthorized pistol or prohibited firearm (Section 7A) carries up to 14 years imprisonment, with strict mandatory sentencing provisions for commercial supply or possessing multiple firearms (Section 51D). Even holding an inherited gun without a licence is a criminal offence. Frontline Lawyers provides specialized firearm defense representation.',
+    answer: 'Under the Firearms Act 1996 (NSW), possessing an unauthorized or unregistered firearm (including rifles, shotguns, handguns, and pistols) is treated with extreme severity. Possessing an unregistered firearm (Section 36) carries up to 5 years imprisonment in the Local/District Court. Possessing an unauthorized pistol or prohibited firearm (Section 7A) carries up to 14 years imprisonment, with strict mandatory sentencing provisions for commercial supply or possessing multiple firearms (Section 51D). Even holding an inherited gun without a licence is a criminal offence. Frontline Lawyers provides specialized firearm defence representation.',
     keywords: ['guns', 'firearms', 'unregistered gun', 'unlicensed firearm', 'pistol', 'rifle', 'shotgun', 'strap', 'gat', 'firearms act', 'Section 7A', 'carrying heat'],
     slangTags: ['#guns', '#firearms', '#unregistered-guns', '#pistols', '#firearms-act-1996', '#gun-charges']
   },
@@ -359,7 +359,7 @@ export const ALL_FAQS: FAQItem[] = [
     id: 'weapons-pocket-knife-custody',
     category: 'Guns & Weapons (Firearms)',
     question: 'Knives & Blades: Is it illegal to carry a pocket knife, box cutter, or blade in NSW?',
-    answer: 'Under Section 11C of the Summary Offences Act 1988 (NSW), it is an offence to possess a knife in a public place or school without a "reasonable excuse". While lawful occupation (tradesperson carrying tools for work), food preparation, or legitimate recreation (fishing or scouting) are recognized excuses, self-defense is explicitly NOT a legal excuse. Recent legislative reforms have granted police expanded powers to search individuals for knives, blades, and weapons without a warrant in designated entertainment precincts.',
+    answer: 'Under Section 11C of the Summary Offences Act 1988 (NSW), it is an offence to possess a knife in a public place or school without a "reasonable excuse". While lawful occupation (tradesperson carrying tools for work), food preparation, or legitimate recreation (fishing or scouting) are recognized excuses, self-defence is explicitly NOT a legal excuse. Recent legislative reforms have granted police expanded powers to search individuals for knives, blades, and weapons without a warrant in designated entertainment precincts.',
     keywords: ['pocket knife', 'knife laws NSW', 'reasonable excuse', 'Section 11C', 'multitool', 'weapons', 'box cutter', 'shank', 'blade', 'carrying knife', 'folding knife'],
     slangTags: ['#pocket-knife', '#knife-laws', '#blade', '#box-cutter', '#reasonable-excuse', '#weapons-search']
   },
@@ -403,7 +403,7 @@ export const ALL_FAQS: FAQItem[] = [
     id: 'fraud-proceeds-of-crime-freezing',
     category: 'Fraud & Financial Crime',
     question: 'Can the police or Crime Commission freeze my bank accounts and assets before trial?',
-    answer: 'Yes. Under the Proceeds of Crime Act 2002 (Cth) or the Criminal Assets Recovery Act 1990 (NSW), authorities such as the NSW Crime Commission (NSWCC) or Australian Federal Police (AFP) can obtain restraining orders freezing bank accounts, luxury vehicles, and real estate, even before criminal guilt has been proven. Urgent legal action is required to apply for living expenses, legal defense allowances, and exclusions of legitimate assets.',
+    answer: 'Yes. Under the Proceeds of Crime Act 2002 (Cth) or the Criminal Assets Recovery Act 1990 (NSW), authorities such as the NSW Crime Commission (NSWCC) or Australian Federal Police (AFP) can obtain restraining orders freezing bank accounts, luxury vehicles, and real estate, even before criminal guilt has been proven. Urgent legal action is required to apply for living expenses, legal defence allowances, and exclusions of legitimate assets.',
     keywords: ['proceeds of crime', 'freezing order', 'restraining order', 'Crime Commission', 'asset seizure', 'frozen bank account', 'cops took my car'],
     slangTags: ['#frozen-bank-account', '#proceeds-of-crime', '#asset-seizure', '#crime-commission']
   },
@@ -422,7 +422,7 @@ export const ALL_FAQS: FAQItem[] = [
   {
     id: 'court-beat-charges-representations',
     category: 'Court Process & Sentencing',
-    question: 'Beating Charges: How can a criminal defense lawyer get charges dropped before trial?',
+    question: 'Beating Charges: How can a criminal defence lawyer get charges dropped before trial?',
     answer: 'In many criminal matters, cases can be resolved without ever going to a defended hearing. Adam Ashley conducts detailed evidentiary audits of the police brief of evidence to identify fatal evidentiary flaws, unlawful police searches under LEPRA, or unreliable witness statements. We then draft formal Written Legal Representations to the Police Area Commander or Director of Public Prosecutions (DPP), petitioning for charges to be formally withdrawn, dismissed, or negotiated down to lesser summary offences.',
     keywords: ['beat charges', 'get charges dropped', 'representations', 'dropped charges', 'withdraw charges', 'thrown out', 'get off charges', 'case dismissed'],
     slangTags: ['#beat-charges', '#dropped-charges', '#representations', '#charges-thrown-out', '#case-dismissed']
@@ -509,27 +509,27 @@ export const ALL_FAQS: FAQItem[] = [
   },
 
   // ==========================================
-  // --- Legal Fees & Defense Team ---
+  // --- Legal Fees & Defence Team ---
   // ==========================================
   {
     id: 'fees-fixed-price-transparency',
-    category: 'Legal Fees & Defense Team',
-    question: 'How does Frontline Lawyers charge for criminal defense matters (fees & costs)?',
+    category: 'Legal Fees & Defence Team',
+    question: 'How does Frontline Lawyers charge for criminal defence matters (fees & costs)?',
     answer: 'We believe in complete financial clarity during an already stressful period. For standard Local Court appearances (such as bail applications, guilty pleas, sentence hearings, and licence appeals), we provide transparent fixed-fee quotes so you know your exact investment upfront without unexpected billable hours. For complex jury trials and contested committals, we provide detailed, itemized cost agreements aligned with the NSW Legal Profession Uniform Law.',
-    keywords: ['legal fees', 'fixed price lawyer', 'criminal defense cost', 'transparent pricing', 'quote', 'how much for lawyer', 'cheap lawyer', 'lawyer costs'],
+    keywords: ['legal fees', 'fixed price lawyer', 'criminal defence cost', 'transparent pricing', 'quote', 'how much for lawyer', 'cheap lawyer', 'lawyer costs'],
     slangTags: ['#legal-fees', '#fixed-price-lawyer', '#criminal-lawyer-cost', '#transparent-fees']
   },
   {
     id: 'fees-why-choose-adam-ashley',
-    category: 'Legal Fees & Defense Team',
+    category: 'Legal Fees & Defence Team',
     question: 'Why choose Adam Ashley and Frontline Lawyers over a duty solicitor or Legal Aid?',
-    answer: 'While duty lawyers perform vital work, they often juggle dozens of complex cases on any single court morning with limited prep time. Principal Counsel Adam Ashley is recognized in Doyle\'s Guide as one of the state\'s premier criminal defense lawyers. When you retain Frontline Lawyers, your case receives exhaustive evidentiary analysis, bespoke defense strategy, senior representation at every hearing, and direct, responsive client communication.',
+    answer: 'While duty lawyers perform vital work, they often juggle dozens of complex cases on any single court morning with limited prep time. Principal Counsel Adam Ashley is recognized in Doyle\'s Guide as one of the state\'s premier criminal defence lawyers. When you retain Frontline Lawyers, your case receives exhaustive evidentiary analysis, bespoke defence strategy, senior representation at every hearing, and direct, responsive client communication.',
     keywords: ['Doyles guide', 'Adam Ashley', 'private criminal solicitor', 'duty lawyer', 'legal aid vs private', 'top lawyer', 'best criminal lawyer'],
     slangTags: ['#doyles-guide', '#adam-ashley', '#private-criminal-lawyer', '#legal-aid-comparison']
   },
   {
     id: 'fees-interstate-clients',
-    category: 'Legal Fees & Defense Team',
+    category: 'Legal Fees & Defence Team',
     question: 'Can Frontline Lawyers represent me if I live in Queensland or interstate with a NSW charge?',
     answer: 'Yes. Many individuals visiting Byron Bay, Tweed Heads, or Northern Rivers from Brisbane, Gold Coast, Sydney, or Melbourne find themselves charged under NSW laws. Because NSW criminal law differs significantly from Queensland and other states, having experienced NSW criminal counsel is essential. We can manage your initial mentions remotely, obtain the police brief, and represent you in court so your travel is minimized.',
     keywords: ['interstate lawyer', 'Queensland driver NSW court', 'Gold Coast to Tweed', 'remote court appearance', 'qld driver in nsw'],
@@ -537,7 +537,7 @@ export const ALL_FAQS: FAQItem[] = [
   },
   {
     id: 'fees-24-7-police-emergency',
-    category: 'Legal Fees & Defense Team',
+    category: 'Legal Fees & Defence Team',
     question: 'Do you offer emergency after-hours police station attendance in Northern Rivers?',
     answer: 'Yes. Criminal arrests and police raids happen at all hours of the night and weekend. Frontline Lawyers provides emergency on-call legal representation. If you or a loved one are in custody at Byron Bay, Ballina, Tweed Heads, or Lismore police stations, we can provide immediate telephone legal advice and attend the station in person to safeguard your rights.',
     keywords: ['emergency criminal lawyer', 'after hours police station lawyer', 'after hours arrest', 'custody lawyer', 'night lawyer', 'police station call'],
@@ -545,7 +545,7 @@ export const ALL_FAQS: FAQItem[] = [
   },
   {
     id: 'fees-legal-confidentiality',
-    category: 'Legal Fees & Defense Team',
+    category: 'Legal Fees & Defence Team',
     question: 'Are my initial communications and chatbot inquiries covered by legal privilege?',
     answer: 'Yes. Communications made with Frontline Lawyers for the purpose of seeking legal advice are protected by strict Legal Professional Privilege and solicitors\' rules of professional confidentiality. We never disclose your personal details, allegations, or case transcripts to third parties or law enforcement.',
     keywords: ['legal professional privilege', 'confidentiality', 'client privacy', 'privileged communication', 'safe to talk', 'secret'],
