@@ -1,14 +1,13 @@
-import { motion } from 'motion/react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, ShieldAlert, Phone } from 'lucide-react';
+import { ShieldAlert, Phone, ArrowRight, ChevronDown, ChevronUp } from 'lucide-react';
 import { practiceAreasData } from '../data/practiceAreas';
-import { useIsDesktop } from '../hooks/useIsDesktop';
 
 export function PracticeAreas() {
-  const isDesktop = useIsDesktop();
+  const [isMobileExpanded, setIsMobileExpanded] = useState(false);
 
   return (
-    <section id="practice-areas" className="py-24 bg-charcoal-900">
+    <section id="practice-areas" className="py-24 bg-charcoal-900 scroll-mt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-gold-400/15 border border-gold-400/30 px-3.5 py-1 rounded-full mb-4">
@@ -21,40 +20,83 @@ export function PracticeAreas() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        {/* 16 Practice Areas (4x4 on desktop, compact rows on mobile) */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-6">
           {practiceAreasData.map((practice, index) => {
             const Icon = practice.icon;
-            const cardInner = (
-              <>
-                <div className="w-12 h-12 rounded-lg bg-gold-400/15 border border-gold-400/30 flex items-center justify-center mb-4 lg:group-hover:scale-105 lg:transition-transform">
-                  <Icon className="w-6 h-6 text-gold-300 lg:group-hover:text-white lg:transition-colors" />
-                </div>
-                
-                <h4 className="text-white lg:group-hover:text-gold-300 font-serif text-lg font-semibold mb-2.5 lg:transition-colors">
-                  {practice.title}
-                </h4>
-                
-                <p className="text-sm text-neutral-200 leading-relaxed mb-5 flex-grow font-normal">
-                  {practice.desc}
-                </p>
-                
-                <div className="flex items-center justify-between pt-3 border-t border-white/10 mt-auto">
-                  <span className="text-xs uppercase tracking-wider font-bold text-gold-300 lg:group-hover:text-white lg:transition-colors">
-                    Learn More
-                  </span>
-                  <ArrowRight className="w-4 h-4 text-gold-300 lg:group-hover:translate-x-1 lg:group-hover:text-white lg:transition-all" />
-                </div>
-              </>
-            );
 
             return (
-              <Link to={`/practice-areas/${practice.slug}`} key={practice.slug} className="group">
-                <div className="p-6 bg-charcoal-800/90 border border-white/15 hover:border-gold-400 hover:bg-charcoal-800 transition-all duration-300 h-full flex flex-col shadow-lg rounded-sm">
-                  {cardInner}
+              <Link 
+                to={`/practice-areas/${practice.slug}`} 
+                key={practice.slug} 
+                className={`group block h-full ${!isMobileExpanded && index >= 5 ? 'hidden sm:block' : 'block'}`}
+              >
+                <div className="p-3 sm:p-6 bg-charcoal-800/90 border border-white/15 hover:border-gold-400 hover:bg-charcoal-800 transition-all duration-300 h-full shadow-lg rounded-sm cursor-pointer relative flex flex-col justify-between">
+                  
+                  {/* Mobile View: Compact Row (icon on left, title in middle, arrow on right) */}
+                  <div className="flex sm:hidden items-center justify-between gap-3.5">
+                    <div className="w-12 h-12 rounded-lg bg-gold-400/15 border border-gold-400/30 flex items-center justify-center shrink-0">
+                      <Icon className="w-6 h-6 text-gold-300" />
+                    </div>
+                    <h4 className="text-white font-serif text-sm font-semibold flex-1 min-w-0 leading-snug">
+                      {practice.title}
+                    </h4>
+                    <div className="shrink-0 text-gold-300 group-hover:text-white transition-colors pl-1">
+                      <ArrowRight className="w-4 h-4" />
+                    </div>
+                  </div>
+
+                  {/* Desktop View: Card Grid (icon on top, title directly under icon, description, arrow in bottom right) */}
+                  <div className="hidden sm:flex flex-col h-full">
+                    <div className="w-12 h-12 rounded-lg bg-gold-400/15 border border-gold-400/30 flex items-center justify-center shrink-0 mb-3.5 lg:group-hover:scale-105 transition-transform">
+                      <Icon className="w-6 h-6 sm:w-7 sm:h-7 text-gold-300" />
+                    </div>
+                    
+                    <h4 className="text-white lg:group-hover:text-gold-300 font-serif text-base lg:text-lg font-semibold transition-colors mb-2 leading-snug">
+                      {practice.title}
+                    </h4>
+
+                    <p className="text-neutral-300 text-xs sm:text-sm font-normal leading-relaxed flex-grow mb-4">
+                      {practice.desc}
+                    </p>
+
+                    <div className="flex justify-end pt-2 mt-auto">
+                      <div className="text-gold-300 group-hover:text-white group-hover:translate-x-1 transition-all">
+                        <ArrowRight className="w-4 h-4" />
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
               </Link>
             );
           })}
+        </div>
+
+        {/* Mobile-only Expand / Collapse Button */}
+        <div className="sm:hidden mt-6">
+          {!isMobileExpanded ? (
+            <button
+              type="button"
+              onClick={() => setIsMobileExpanded(true)}
+              className="w-full py-3.5 px-6 bg-charcoal-800 hover:bg-charcoal-700 text-gold-300 hover:text-white border border-gold-400/30 hover:border-gold-400 rounded-sm font-bold text-xs uppercase tracking-widest transition-all flex items-center justify-center gap-2 shadow-md cursor-pointer"
+            >
+              <span>View all 16 areas</span>
+              <ChevronDown className="w-4 h-4 text-gold-300" />
+            </button>
+          ) : (
+            <button
+              type="button"
+              onClick={() => {
+                setIsMobileExpanded(false);
+                document.getElementById('practice-areas')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+              className="w-full py-3.5 px-6 bg-charcoal-800 hover:bg-charcoal-700 text-neutral-300 hover:text-white border border-white/20 hover:border-white/40 rounded-sm font-bold text-xs uppercase tracking-widest transition-all flex items-center justify-center gap-2 shadow-md cursor-pointer"
+            >
+              <span>Show less</span>
+              <ChevronUp className="w-4 h-4 text-gold-300" />
+            </button>
+          )}
         </div>
 
         {/* Direct urgent helpline banner */}

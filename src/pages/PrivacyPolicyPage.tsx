@@ -114,7 +114,7 @@ export function PrivacyPolicyPage() {
               </p>
               <ul className="list-disc pl-6 space-y-2 text-neutral-400">
                 <li>
-                  Authorized Barristers or specialized Counsel engaged to co-defend your matters in higher courts.
+                  Authorized Barristers or specialized advocates engaged to co-defend your matters in higher courts.
                 </li>
                 <li>
                   Duly authorized medical professionals, professional psychologists, or forensic experts tasked with producing evaluations for court presentation.

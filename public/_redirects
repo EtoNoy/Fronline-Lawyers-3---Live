@@ -1,1 +1,11 @@
-/*    /index.html   200
+# Practice area mergers (301 Permanent Redirects)
+/practice-areas/domestic-violence-dvo    /practice-areas/domestic-violence    301
+/practice-areas/domestic-violence-avo    /practice-areas/domestic-violence    301
+/practice-areas/avo                      /practice-areas/domestic-violence    301
+/practice-areas/stalk-intimidation       /practice-areas/domestic-violence    301
+/practice-areas/self-defence             /practice-areas/assault-charges      301
+/practice-areas/manslaughter             /practice-areas/murder-manslaughter  301
+/practice-areas/murder-charges           /practice-areas/murder-manslaughter  301
+
+# SPA fallback
+/*                                       /index.html                          200

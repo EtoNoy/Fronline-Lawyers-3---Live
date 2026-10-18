@@ -275,7 +275,7 @@ export function FAQPage() {
             <div className="flex flex-wrap items-center gap-3 text-xs text-neutral-200">
               <span className="flex items-center gap-2 bg-charcoal-900 px-3.5 py-2 rounded border border-white/15 font-medium">
                 <Shield className="w-4 h-4 text-gold-300" />
-                Principal Counsel Adam Ashley
+                Principal Solicitor Adam Ashley
               </span>
               <span className="flex items-center gap-2 bg-charcoal-900 px-3.5 py-2 rounded border border-white/15 font-medium">
                 <FileText className="w-4 h-4 text-gold-300" />
@@ -573,7 +573,7 @@ export function FAQPage() {
               Do not leave your future or clean record to chance. Exercise your absolute right to silence and contact a lawyer immediately before making statements or pleading.
             </p>
             <p className="text-neutral-200 text-sm leading-relaxed mb-6 font-normal">
-              Working in close alliance with Australia's premier criminal defence barristers across NSW & Queensland. Representing clients throughout: <strong className="text-white">Tweed Heads, Kingscliff, Murwillumbah, Byron Bay, Ballina, Lismore, Mullumbimby, Ocean Shores, Pottsville, Casino, Kyogle, Southport, Coolangatta, Surfers Paradise, Burleigh Heads, Robina, Broadbeach, Beenleigh, and Brisbane</strong>.
+              Working in close alliance with Australia's premier criminal defence barristers across NSW & Queensland. Representing clients throughout: <strong className="text-white">Tweed Heads, Kingscliff, Murwillumbah, Byron Bay, Ballina, Lismore, Maclean, Mullumbimby, Ocean Shores, Pottsville, Casino, Kyogle, Southport, Coolangatta, Surfers Paradise, Burleigh Heads, Robina, Broadbeach, Beenleigh, and Brisbane</strong>.
             </p>
 
             <div className="flex flex-wrap items-center gap-4">

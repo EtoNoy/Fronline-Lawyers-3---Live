@@ -59,36 +59,6 @@ export function Contact() {
 
   return (
     <section id="contact" className="py-24 bg-charcoal-900 relative border-t border-white/10">
-      <style>{`
-        .glow-card {
-          position: relative;
-          box-shadow: 0 0 35px -5px rgba(212, 175, 55, 0.4), 0 10px 30px rgba(0, 0, 0, 0.7);
-          border: 1px solid rgba(212, 175, 55, 0.4) !important;
-          transition: box-shadow 0.4s ease, border-color 0.4s ease;
-        }
-        .glow-card:hover {
-          box-shadow: 0 0 55px 0px rgba(212, 175, 55, 0.6), 0 20px 50px rgba(0, 0, 0, 0.85);
-          border-color: rgba(212, 175, 55, 0.7) !important;
-        }
-        .glow-card::after {
-          content: '';
-          position: absolute;
-          inset: 0;
-          border-radius: inherit;
-          opacity: 0.8;
-          transition: opacity 0.4s ease;
-          pointer-events: none;
-          box-shadow: inset 0 0 25px rgba(212, 175, 55, 0.2), 0 0 45px rgba(212, 175, 55, 0.35);
-          z-index: 1;
-        }
-        .glow-card:hover::after {
-          opacity: 1;
-        }
-        .glow-card > * {
-          position: relative;
-          z-index: 10;
-        }
-      `}</style>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           
@@ -130,7 +100,7 @@ export function Contact() {
                 <div>
                   <h4 className="text-white text-lg font-serif mb-1">Jurisdiction & Court Coverage</h4>
                   <p className="text-neutral-200 text-sm leading-relaxed">
-                    Priority court appearances and station attendances across <strong className="text-white">Tweed Heads, Murwillumbah, Kingscliff, Byron Bay, Ballina, Lismore, Mullumbimby, Ocean Shores, Pottsville, Casino</strong>, through to <strong className="text-white">Coolangatta, Southport, Surfers Paradise, Burleigh Heads, Robina, Broadbeach, Beenleigh, and Brisbane</strong>.
+                    Priority court appearances and station attendances across <strong className="text-white">Tweed Heads, Murwillumbah, Kingscliff, Byron Bay, Ballina, Lismore, Maclean, Mullumbimby, Ocean Shores, Pottsville, Casino</strong>, through to <strong className="text-white">Coolangatta, Southport, Surfers Paradise, Burleigh Heads, Robina, Broadbeach, Beenleigh, and Brisbane</strong>.
                   </p>
                   <p className="text-neutral-300 text-xs mt-2 border-t border-white/10 pt-2">
                     Mailing Address: P.O Box 104 Murwillumbah, 2484, NSW
@@ -155,8 +125,6 @@ export function Contact() {
           </div>
 
           <div className="glow-card bg-charcoal-950 border border-white/15 p-6 sm:p-10 shadow-2xl relative rounded-sm">
-            <div className="absolute top-0 right-0 w-24 h-24 bg-gold-400/10 blur-2xl rounded-full pointer-events-none"></div>
-            
             {submittedRef ? (
               <div className="text-center py-12">
                 <div className="w-16 h-16 bg-emerald-500/20 text-emerald-400 rounded-full flex items-center justify-center mx-auto mb-4 border border-emerald-500/30">

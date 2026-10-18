@@ -41,10 +41,10 @@ export function WhyChooseUsDetail() {
                   <div className="p-6 bg-charcoal-800/90 border border-white/15 rounded-sm">
                     <h3 className="text-2xl font-serif text-white mb-3 flex items-center gap-3">
                       <Scale className="w-6 h-6 text-gold-300 shrink-0" />
-                      Elite Barrister Network & Senior Counsel Alliances
+                      Elite Trial Barrister Alliances
                     </h3>
                     <p className="text-neutral-200 text-base leading-relaxed">
-                      We maintain exceptional professional connections with Australia’s leading criminal defence barristers—including King's Counsel (KC), Senior Counsel (SC), and specialist trial barristers across the New South Wales and Queensland Bars. Whether your matter involves an urgent Supreme Court bail application, complex drug trial, or multi-week jury hearing, our close working alliances ensure your defence has the most formidable legal firepower assembled.
+                      We maintain exceptional professional connections with Australia’s leading criminal defence barristers—including specialist trial barristers (KC/SC) across the New South Wales and Queensland Bars. Whether your matter involves an urgent Supreme Court bail application, complex drug trial, or multi-week jury hearing, our close working alliances ensure your defence has the most formidable legal firepower assembled.
                     </p>
                   </div>
 
@@ -61,7 +61,7 @@ export function WhyChooseUsDetail() {
                   <div className="p-6 bg-charcoal-800/90 border border-white/15 rounded-sm">
                     <h3 className="text-2xl font-serif text-white mb-3 flex items-center gap-3">
                       <Users className="w-6 h-6 text-gold-300 shrink-0" />
-                      Direct Representation by Principal Counsel
+                      Direct Representation by Principal Lawyer
                     </h3>
                     <p className="text-neutral-200 text-base leading-relaxed">
                       Your liberty is never handed off to junior associates or unqualified clerks. Principal Lawyer Adam Ashley (recognized in Doyle's Guide) personally directs your defence strategy and represents you at critical junctures, giving you the direct benefit of seasoned courtroom experience.
@@ -86,11 +86,8 @@ export function WhyChooseUsDetail() {
                     <span>Cross-Border NSW & Queensland Coverage</span>
                   </div>
                   <h3 className="text-2xl font-serif text-white mb-3">Secure Your Legal Defence Today</h3>
-                  <p className="text-neutral-200 text-sm leading-relaxed mb-4">
-                    Providing urgent representation across Tweed Heads, Kingscliff, Murwillumbah, Byron Bay, Ballina, Lismore, Mullumbimby, Ocean Shores, Pottsville, Casino, Kyogle, Southport, Coolangatta, Surfers Paradise, Burleigh Heads, Robina, Broadbeach, Beenleigh, and Brisbane.
-                  </p>
-                  <p className="text-white text-sm font-semibold mb-6">
-                    Exercise your right to silence. Never make statements to police without legal counsel present.
+                  <p className="text-neutral-200 text-sm leading-relaxed mb-6">
+                    Providing urgent representation across Tweed Heads, Kingscliff, Murwillumbah, Byron Bay, Ballina, Lismore, Maclean, Mullumbimby, Ocean Shores, Pottsville, Casino, Kyogle, Southport, Coolangatta, Surfers Paradise, Burleigh Heads, Robina, Broadbeach, Beenleigh, and Brisbane.
                   </p>
                   <a 
                     href="tel:0421066608" 

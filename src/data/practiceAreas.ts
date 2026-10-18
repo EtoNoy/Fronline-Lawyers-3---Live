@@ -8,17 +8,12 @@ import {
   Key, 
   Shield, 
   Gavel, 
-  AlertTriangle, 
-  ShieldCheck, 
-  ArrowUpRight, 
+  Scale, 
   Megaphone, 
   Landmark, 
   DollarSign, 
-  Eye, 
   Laptop, 
-  UserX, 
-  AlertCircle, 
-  Skull 
+  UserX 
 } from 'lucide-react';
 
 export interface PracticeArea {
@@ -35,25 +30,43 @@ export const practiceAreasData: PracticeArea[] = [
   { 
     slug: "drink-driving-dui", 
     icon: Wine, 
-    title: "Drink Driving / DUI", 
+    title: "Drink Driving", 
     desc: "Low, Mid, and High-Range PCA, drug driving, and breath analysis matters.",
-    urgency: "Immediate action required. Police issue on-the-spot licence suspensions that take effect immediately. Speaking to counsel promptly allows proper review of breath analysis procedures.",
+    urgency: "Immediate action required. Police issue on-the-spot licence suspensions that take effect immediately. Speaking to a lawyer promptly allows proper review of breath analysis procedures.",
     severity: "Severe. Mandatory minimum licence disqualifications, hefty financial penalties, mandatory alcohol interlock installation, and permanent criminal records that impact employment.",
     fullDescription: "Prescribed Concentration of Alcohol (PCA) and DUI offences carry mandatory statutory disqualification periods and interlock requirements under NSW and Queensland traffic laws. Police rely on breath analysis readings, which require breath testing procedures, instrument calibration logs, and roadside detention timelines to strictly adhere to statutory requirements. Frontline Lawyers provides comprehensive representation to review the police brief and technical evidentiary records across Local and Magistrates Courts."
   },
   { 
     slug: "drug-offences", 
     icon: Pill, 
-    title: "Drug Possession & Supply Charges", 
+    title: "Drug Possession & Supply", 
     desc: "Personal possession, deemed supply, commercial quantities, and trafficking allegations.",
-    urgency: "High. Search procedures, drug weights, and police evidentiary records require thorough scrutiny by experienced defence counsel.",
+    urgency: "High. Search procedures, drug weights, and police evidentiary records require thorough scrutiny by experienced defence solicitors.",
     severity: "Extreme. Penalties range from permanent criminal records and international travel bans to substantial mandatory custodial sentences for commercial drug supply matters.",
     fullDescription: "Drug charges are prosecuted under the Drug Misuse and Trafficking Act (NSW) and Drugs Misuse Act (QLD). Police frequently rely on 'deemed supply' provisions where possession of a specified weight legally presumes an intention to supply or distribute. Police search powers under LEPRA and PPRA are subject to strict legal limits, and evidentiary challenges may arise regarding the lawfulness of searches, warrants, or electronic access. Frontline Lawyers provides representation across personal possession, commercial supply, and trafficking allegations."
   },
   { 
+    slug: "domestic-violence", 
+    icon: Home, 
+    title: "Domestic Violence & AVOs", 
+    desc: "Domestic allegations, AVOs and DVOs, stalking and intimidation.",
+    urgency: "Critical. Provisional and interim AVOs/DVOs take effect immediately upon service. Immediate legal representation is required to review police conditions, protect housing and parenting arrangements, and preserve communications records.",
+    severity: "Severe. Immediate exclusion from family homes, weapon licence revocation, and strict criminal liability with mandatory custodial risks under Section 14 upon any alleged breach.",
+    fullDescription: "Domestic violence proceedings, Apprehended Violence Orders (AVOs/ADVOs) in NSW, and Domestic Violence Orders (DVOs) in Queensland impose restrictive conditions that alter living arrangements, family contact, and professional livelihoods. While an AVO is civil in nature, any alleged breach constitutes a serious criminal offence with a statutory presumption of imprisonment. Furthermore, charges of stalking or intimidation with intent to cause fear of physical or mental harm under Section 13 of the Crimes (Domestic and Personal Violence) Act 2007 carry custodial penalties of up to 5 years, often hinging on disputed text messages, phone logs, and contextual evidence. Frontline Lawyers provides comprehensive defence across contesting provisional orders, negotiating amended conditions or undertakings, preserving electronic message chains, and vigorously defending domestic violence, stalking, and AVO breach allegations in court."
+  },
+  { 
+    slug: "assault-charges", 
+    icon: Hand, 
+    title: "Assault & Violent Offences", 
+    desc: "Common assault, AOABH, wounding, affray, and self-defence.",
+    urgency: "Urgent evidence preservation required. Venue security footage, mobile recordings, 000 calls, and independent witness statements must be secured immediately to substantiate self-defence before memories fade.",
+    severity: "Severe. Ranging from recorded criminal convictions to substantial prison sentences. Establishing lawful self-defence operates as a complete legal defence resulting in full acquittal.",
+    fullDescription: "Assault charges in New South Wales and Queensland range from common assault and affray to assault occasioning actual bodily harm (AOABH), reckless wounding, and grievous bodily harm (GBH). In many violent confrontation allegations, individuals were acting in lawful self-defence or defence of another. Under Australian law, including Section 418 of the Crimes Act 1900 (NSW), a person is not criminally responsible for an offence if their conduct was carried out in lawful self-defence. Once self-defence is raised on evidence, the prosecution bears the burden of disproving it beyond reasonable doubt. Frontline Lawyers provides rigorous trial preparation, forensic examination of CCTV recordings, medical evidence auditing, and courtroom cross-examination to establish statutory justification and achieve complete acquittals."
+  },
+  { 
     slug: "traffic-offences", 
     icon: Navigation, 
-    title: "Traffic Offences & Driving Charges", 
+    title: "Traffic Offences", 
     desc: "Negligent driving, dangerous operation, excessive speeding, and camera-detected offences.",
     urgency: "Strict statutory deadlines apply. Election to take infringement notices to court or lodging formal appeals must be executed within tight timeframes.",
     severity: "Substantial. Unchecked demerit accumulation, heavy court fines, licence loss, and potential imprisonment for aggravated or dangerous driving charges.",
@@ -62,34 +75,16 @@ export const practiceAreasData: PracticeArea[] = [
   { 
     slug: "licence-matters", 
     icon: Car, 
-    title: "Licence Matters & RMS Appeals", 
-    desc: "Police immediate suspensions, demerit point bans, and licence appeals.",
-    urgency: "Extremely time-sensitive. Administrative appeal windows for police-issued immediate suspensions or Transport agency cancellation notices must be lodged strictly within 28 days.",
+    title: "Licence Suspensions & Appeals", 
+    desc: "Immediate suspensions, demerit point bans, and licence appeals.",
+    urgency: "Extremely time-sensitive. Administrative appeal windows for police-issued immediate suspensions or Transport for NSW cancellation notices must be lodged strictly within 28 days.",
     severity: "Immediate loss of driving privileges, threatening your job, family care responsibilities, business operations, and leading to severe secondary driving-while-disqualified charges.",
     fullDescription: "Losing your driver licence can impact employment, business operations, and family commitments. Following a police-issued immediate suspension or a Notice of Suspension from Transport for NSW or Queensland Transport, statutory appeal processes exist in the Local Court. Frontline Lawyers prepares and advocates licence appeals to present comprehensive mitigating evidence to the court."
   },
   { 
-    slug: "domestic-violence", 
-    icon: Home, 
-    title: "Domestic Violence & AVO / DVO Matters", 
-    desc: "Domestic allegations, Apprehended Domestic Violence Orders (ADVOs), and order variations.",
-    urgency: "Critical. Provisional and interim orders take effect immediately, requiring prompt legal representation to review conditions and prepare court responses.",
-    severity: "Severe. Immediate displacement under interim orders, loss of contact, weapon licence cancellations, and mandatory criminal charges and custodial risks for any alleged breach.",
-    fullDescription: "Domestic violence proceedings and Apprehended Violence Orders (AVOs) or Domestic Violence Orders (DVOs) involve restrictive conditions that can affect living arrangements and personal contact. While an AVO is a civil order, any alleged breach constitutes a criminal offence. Frontline Lawyers represents clients in contesting provisional orders, negotiating conditions, and defending domestic violence allegations in court."
-  },
-  { 
-    slug: "assault-charges", 
-    icon: Hand, 
-    title: "Assault Charges & Violent Offences", 
-    desc: "Common assault, assault occasioning actual bodily harm (AOABH), wounding, and affray.",
-    urgency: "Urgent evidence preservation required. Security CCTV footage, pub recordings, mobile videos, and witness accounts require prompt subpoena and formal requests.",
-    severity: "Significant to severe. Ranging from permanent convictions on criminal records to multi-year custodial sentences in maximum-security correctional facilities.",
-    fullDescription: "Assault charges range from common assault and affray to assault occasioning actual bodily harm (AOABH) and wounding. Contested hearings often involve critical examination of witness credibility, CCTV recordings, and statutory defence provisions under Australian law. Frontline Lawyers provides strategic trial preparation and courtroom advocacy across all levels of assault allegations."
-  },
-  { 
     slug: "bail-matters", 
     icon: Key, 
-    title: "Bail Applications & Show Cause", 
+    title: "Bail Applications", 
     desc: "Release applications across Local, Magistrates, District, and Supreme Courts.",
     urgency: "Extreme emergency. Once bail is refused by police and a magistrate, you cannot easily make a second application without demonstrating fresh facts or exceptional change of circumstances.",
     severity: "Immediate and total loss of liberty. Being remanded in custody awaiting trial disrupts family, employment, and defence preparation.",
@@ -98,44 +93,26 @@ export const practiceAreasData: PracticeArea[] = [
   { 
     slug: "police-matters", 
     icon: Shield, 
-    title: "Police Matters & Questioning Rights", 
+    title: "Police Questioning & Rights", 
     desc: "Police station interviews, search warrants, arrest procedures, and statutory rights.",
-    urgency: "Immediate. Contacting defence counsel prior to attending a police station ensures your matter is managed professionally from the initial stages.",
+    urgency: "Immediate. Contacting defence solicitors prior to attending a police station ensures your matter is managed professionally from the initial stages.",
     severity: "Extreme. Admissions made during police questioning form the cornerstone of prosecution cases.",
     fullDescription: "When individuals are contacted by police regarding an investigation, interview, or station attendance, understanding procedural rules under the Law Enforcement (Powers and Responsibilities) Act (LEPRA) and the Evidence Act is critical. Frontline Lawyers provides direct representation and station attendances across Northern Rivers and South East Queensland to safeguard your interests."
   },
   { 
     slug: "court-hearings-trials", 
     icon: Gavel, 
-    title: "Court Hearings & Contested Trials", 
+    title: "Court Hearings & Trials", 
     desc: "Contested hearings, committals, and jury trials in Local, District, and Supreme Courts.",
     urgency: "High. Evidence subpoenas, expert forensic reports, and cross-examination strategies require systematic preparation months prior to entering the courtroom.",
     severity: "Maximum. The final determination of innocence or guilt. A guilty verdict results in immediate criminal conviction, sentencing, and potential imprisonment.",
-    fullDescription: "Contested hearings and jury trials require systematic forensic preparation, detailed witness cross-examination, and comprehensive legal submissions. Frontline Lawyers represents defendants facing summary hearings in the Local Court and indictable jury trials in District and Supreme Courts, working closely with leading trial barristers and Senior Counsel."
-  },
-  { 
-    slug: "avo", 
-    icon: AlertTriangle, 
-    title: "AVO & Restraining Orders", 
-    desc: "Apprehended Violence Orders (AVO), restraining orders, and private application disputes.",
-    urgency: "High. First return court dates arrive quickly; agreeing to orders without legal review can affect weapons licences, employment security clearances, and parenting arrangements.",
-    severity: "Moderate civil impact escalating to severe criminal liability upon any alleged breach.",
-    fullDescription: "Apprehended Violence Orders (AVO) in NSW and Protection Orders in Queensland place significant civil restraints on personal freedom. While the order itself does not generate a criminal record, any alleged contravention is a criminal charge carrying a statutory presumption of imprisonment. Frontline Lawyers represents applicants and respondents in contesting unreasonable orders, negotiating undertakings, and varying conditions."
-  },
-  { 
-    slug: "self-defence", 
-    icon: ShieldCheck, 
-    title: "Self-Defence & Justification", 
-    desc: "Statutory justification under Section 418 Crimes Act, defending persons or property.",
-    urgency: "Immediate evidence securing required. Statements from independent patrons, bouncers, and surveillance angles must be locked down before memories fade.",
-    severity: "Critical. Establishing lawful self-defence results in a complete acquittal and dismissal of assault or violent charges.",
-    fullDescription: "Under Australian law, including Section 418 of the Crimes Act 1900 (NSW), an individual is not criminally responsible for an offence if their actions were carried out in lawful self-defence. Establishing self-defence requires evidence that the response was perceived as necessary and was reasonable in the circumstances. Frontline Lawyers prepares comprehensive trial defences to test prosecution evidence and establish statutory justification."
+    fullDescription: "Contested hearings and jury trials require systematic forensic preparation, detailed witness cross-examination, and comprehensive legal submissions. Frontline Lawyers represents defendants facing summary hearings in the Local Court and indictable jury trials in District and Supreme Courts, working closely with leading trial barristers and senior barristers."
   },
   { 
     slug: "appeals", 
-    icon: ArrowUpRight, 
-    title: "District Court Severity & Conviction Appeals", 
-    desc: "Appeals against harsh sentences, wrongful convictions, or magistrate errors.",
+    icon: Scale, 
+    title: "Appeals", 
+    desc: "Appeals against harsh sentences or wrongful convictions.",
     urgency: "Strict 28-day statutory appeal deadline from the date of sentence in the Local or Magistrates Court.",
     severity: "High. An appeal is your legal avenue to overturn a wrongful conviction, eliminate a criminal record, or substitute a custodial sentence for a community-based order.",
     fullDescription: "If you have received an unjust conviction or an excessively harsh sentence in the Local Court or Magistrates Court, you have a statutory right of appeal to the District Court. Severity appeals allow a higher court judge to reconsider your penalty afresh, while conviction appeals challenge magistrate errors of fact or law. Frontline Lawyers prepares and argues appeals across NSW and Queensland."
@@ -148,6 +125,15 @@ export const practiceAreasData: PracticeArea[] = [
     urgency: "Moderate to high. Reviewing police body-worn video and venue surveillance must be undertaken promptly.",
     severity: "Fines, community correction orders, and potential criminal records that disrupt international travel and professional accreditations.",
     fullDescription: "Public order offences frequently result from escalated interactions during routine street encounters. Frontline Lawyers examines whether police were acting in the lawful execution of their duty, assesses body-worn camera footage, and defends public nuisance and disorderly allegations in court."
+  },
+  { 
+    slug: "cybercrime", 
+    icon: Laptop, 
+    title: "Cybercrime & Digital Offences", 
+    desc: "Unauthorised computer access, data tampering, online fraud, and digital device investigations.",
+    urgency: "High. Digital chain of custody and device forensic reports require early legal scrutiny.",
+    severity: "Severe state and federal penalties, forfeiture of computing equipment, and long-term supervision or device restrictions.",
+    fullDescription: "Cybercrime charges rely heavily on automated IP tracking, server logs, and digital forensics. However, digital evidence is vulnerable to attribution errors, shared Wi-Fi networks, malware, and third-party unauthorised access. Frontline Lawyers provides focused defence representation to challenge technical attribution and evidentiary integrity."
   },
   { 
     slug: "centrelink-fraud", 
@@ -168,48 +154,21 @@ export const practiceAreasData: PracticeArea[] = [
     fullDescription: "Under the Proceeds of Crime Act and Criminal Assets Recovery legislation, authorities can apply to freeze assets during financial investigations. Challenging these orders requires specialist legal advocacy to secure living expense allowances, protect legitimate family assets, and contest forfeiture applications. Frontline Lawyers represents clients in proceeds of crime and financial investigations."
   },
   { 
-    slug: "stalk-intimidation", 
-    icon: Eye, 
-    title: "Stalk or Intimidation Charges", 
-    desc: "Personal intimidation, stalking, harassment, and carriage service telecommunications matters.",
-    urgency: "High. Electronic records, messaging threads, call histories, and location data must be preserved and forensically backed up immediately.",
-    severity: "Substantial. Immediate local court AVOs, criminal records, and potential custodial sentences of up to 5 years under Section 13 of the Crimes (Domestic and Personal Violence) Act.",
-    fullDescription: "Stalking and intimidation charges under Section 13 of the Crimes (Domestic and Personal Violence) Act frequently involve electronic communications, social media records, and telecommunications logs. Frontline Lawyers conducts thorough evidentiary audits to evaluate context, message chains, and disputed allegations in court."
-  },
-  { 
-    slug: "cybercrime", 
-    icon: Laptop, 
-    title: "Cybercrime & Digital Offences", 
-    desc: "Unauthorised computer access, data tampering, online fraud, and digital device investigations.",
-    urgency: "High. Digital chain of custody and device forensic reports require early legal scrutiny.",
-    severity: "Severe state and federal penalties, forfeiture of computing equipment, and long-term supervision or device restrictions.",
-    fullDescription: "Cybercrime charges rely heavily on automated IP tracking, server logs, and digital forensics. However, digital evidence is vulnerable to attribution errors, shared Wi-Fi networks, malware, and third-party unauthorised access. Frontline Lawyers provides focused defence representation to challenge technical attribution and evidentiary integrity."
-  },
-  { 
     slug: "rape-sexual-assault", 
     icon: UserX, 
-    title: "Sexual Assault & Indictable Allegations", 
+    title: "Sexual Assault Allegations", 
     desc: "Indictable sexual offences, historical allegations, and committal proceedings.",
-    urgency: "Extreme emergency. Formal committal proceedings and evidentiary reviews require early, meticulous preparation by defence counsel.",
+    urgency: "Extreme emergency. Formal committal proceedings and evidentiary reviews require early, meticulous preparation by defence solicitors.",
     severity: "Catastrophic. Lengthy mandatory minimum prison terms, lifetime placement on the child protection / sex offender registry, and total social ruin.",
     fullDescription: "Indictable sexual offence allegations are investigated extensively and tried before the District and Supreme Courts. These proceedings involve complex rules of evidence, committal hearings, and detailed forensic analysis. Frontline Lawyers provides rigorous representation to defend indictable charges and protect our clients' interests."
   },
   { 
-    slug: "manslaughter", 
-    icon: AlertCircle, 
-    title: "Manslaughter & Fatal Incidents", 
-    desc: "Criminal negligence, unlawful and dangerous acts, and vehicular manslaughter allegations.",
-    urgency: "Extreme. Commissioning independent expert forensic and pathology reviews requires immediate legal coordination.",
-    severity: "Maximum. Custodial sentences of up to 25 years, permanent destruction of career, and intense media scrutiny.",
-    fullDescription: "Manslaughter allegations involve complex issues of causation, negligence, and expert testimony concerning accidental or unlawful fatal incidents. Frontline Lawyers coordinates independent medical, pathology, and accident reconstruction experts to prepare comprehensive trial defences."
-  },
-  { 
-    slug: "murder-charges", 
-    icon: Skull, 
-    title: "Murder Charges & Homicide Advocacy", 
-    desc: "Murder, homicide, and attempted murder trials in the Supreme Court.",
-    urgency: "Absolute emergency. Direct representation by defence counsel at every stage of a homicide investigation is critical.",
-    severity: "The ultimate penalty in the criminal justice system—life imprisonment in a maximum-security correctional centre.",
-    fullDescription: "Homicide and murder trials are the most serious matters in the criminal justice system, heard before the Supreme Court. Frontline Lawyers provides dedicated legal counsel, pairing Principal Lawyer Adam Ashley with premier Senior Counsel (KC/SC) and seasoned trial barristers to deliver exhaustive defence advocacy."
+    slug: "murder-manslaughter", 
+    icon: Scale, 
+    title: "Murder & Manslaughter", 
+    desc: "Murder, attempted murder, manslaughter, and dangerous act charges.",
+    urgency: "Absolute emergency. Direct representation by defence solicitors at every stage of a homicide investigation, police interview, forensic search, and Supreme Court bail application is critical.",
+    severity: "Maximum penalty in the criminal justice system—ranging up to 25 years for manslaughter and life imprisonment for murder in maximum-security correctional facilities.",
+    fullDescription: "Homicide allegations—including murder, attempted murder, manslaughter, and fatal incidents involving criminal negligence or dangerous acts—are the most serious prosecutions in the criminal justice system, heard before the Supreme Court. These proceedings involve extensive police strike-force investigations, forensic pathology, digital metadata, ballistics, and complex issues of intent and causation. Frontline Lawyers provides relentless legal representation, pairing Principal Lawyer Adam Ashley with premier Senior Counsel (KC/SC) and seasoned trial barristers to conduct exhaustive evidentiary investigations, challenge prosecution briefs, and deliver formidable courtroom advocacy."
   }
 ];

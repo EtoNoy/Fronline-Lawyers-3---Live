@@ -24,7 +24,7 @@ export function Testimonials() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
         <div className="text-center">
           <h2 className="text-gold-300 font-bold tracking-widest uppercase text-xs mb-3">Client Reviews</h2>
-          <h3 className="text-4xl md:text-5xl font-serif text-white mb-3">Genuine Counsel. Real Client Experiences.</h3>
+          <h3 className="text-4xl md:text-5xl font-serif text-white mb-3">Genuine Advocacy. Real Client Experiences.</h3>
           <p className="text-gold-300 text-sm font-medium italic">
             * All reviews are anonymous for discretion purposes.
           </p>

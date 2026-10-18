@@ -40,17 +40,17 @@ export function About() {
           <div>
             <div className="inline-flex items-center gap-2 bg-gold-400/15 border border-gold-400/30 px-3.5 py-1 rounded-full mb-4">
               <Shield className="w-4 h-4 text-gold-300" />
-              <span className="text-gold-300 font-bold tracking-widest uppercase text-xs">About Principal Solicitor Adam Ashley</span>
+              <span className="text-gold-300 font-bold tracking-widest uppercase text-xs">About Principal Lawyer Adam Ashley</span>
             </div>
             <h3 className="text-3xl sm:text-4xl md:text-5xl font-serif text-white mb-6 leading-tight">
               Fearless Advocacy. Total Client Dedication.
             </h3>
             
             <p className="text-neutral-100 text-base sm:text-lg font-normal leading-relaxed mb-6">
-              When facing police allegations or court proceedings, you need straightforward legal representation that protects your constitutional rights from day one. Adam Ashley treats every client as his paramount priority. He doesn't treat you as a case number—he listens, answers your calls directly, and applies rigorous legal acumen to protect your freedom.
+              When facing police allegations or court proceedings, you need straightforward legal representation that protects your legal rights from day one. Adam Ashley treats every client as his paramount priority. He doesn't treat you as a case number—he listens, answers your calls directly, and applies rigorous legal acumen to protect your freedom.
             </p>
             <p className="text-neutral-100 text-sm sm:text-base leading-relaxed mb-6">
-              Adam has built an outstanding reputation throughout <strong className="text-white font-semibold">Northern Rivers NSW and South East Queensland</strong>, defending clients across local and magistrates courts in Murwillumbah, Tweed Heads, Kingscliff, Byron Bay, Ballina, Lismore, Mullumbimby, Casino, as well as Coolangatta, Southport, Surfers Paradise, Burleigh Heads, Robina, Brisbane, and Beenleigh.
+              Adam has built an outstanding reputation throughout <strong className="text-white font-semibold">Northern Rivers NSW and South East Queensland</strong>, defending clients across local and magistrates courts in Murwillumbah, Tweed Heads, Kingscliff, Byron Bay, Ballina, Lismore, Maclean, Mullumbimby, Casino, as well as Coolangatta, Southport, Surfers Paradise, Burleigh Heads, Robina, Brisbane, and Beenleigh.
             </p>
             <p className="text-neutral-200 text-xs sm:text-sm leading-relaxed mb-6 bg-charcoal-800/80 p-4 border-l-2 border-gold-400 rounded-r-sm">
               <strong className="text-gold-300 block mb-1">Premier Barrister Connections:</strong>

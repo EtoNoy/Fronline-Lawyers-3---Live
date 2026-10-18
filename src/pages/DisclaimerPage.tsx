@@ -31,7 +31,7 @@ export function DisclaimerPage() {
                 The content, information, and publications displayed on this website are provided strictly for general informational, educational, and resource purposes. They do not constitute formal legal advice, tailored case planning, or professional legal opinions.
               </p>
               <p>
-                Criminal law is highly complex and depends heavily on the specific facts and circumstances of each individual case. Minor variations in police procedures, evidence, or personal backgrounds can completely alter the appropriate legal strategy. You must not act or refrain from acting based on any content read on this Site. We strongly advise that you seek professional, personalized legal counsel regarding your specific situation before making any decisions.
+                Criminal law is highly complex and depends heavily on the specific facts and circumstances of each individual case. Minor variations in police procedures, evidence, or personal backgrounds can completely alter the appropriate legal strategy. You must not act or refrain from acting based on any content read on this Site. We strongly advise that you seek professional, personalized legal advice from a qualified lawyer regarding your specific situation before making any decisions.
               </p>
             </section>
 

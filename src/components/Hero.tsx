@@ -24,7 +24,7 @@ export function Hero() {
           </h1>
 
           <p className="text-xs sm:text-base md:text-xl text-neutral-800 mb-4 sm:mb-8 md:mb-10 max-w-2xl font-semibold leading-relaxed text-left drop-shadow-sm">
-            Straightforward legal representation to protect your rights, livelihood, and future. From our base in Murwillumbah, we represent clients throughout the Northern Rivers NSW and South East Queensland, appearing in local and magistrates courts across Southport, Coolangatta, Tweed Heads, Ballina, Byron Bay, Mullumbimby, and Lismore.
+            Straightforward legal representation to protect your rights, livelihood, and future. From our base in Murwillumbah, we represent clients throughout the Northern Rivers NSW and South East Queensland, appearing in local and magistrates courts across Murwillumbah, Tweed Heads, Ballina, Byron Bay, Mullumbimby, Lismore, Maclean, Southport, Coolangatta, and Brisbane.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-start w-auto">

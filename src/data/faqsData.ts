@@ -47,7 +47,7 @@ export const ALL_FAQS: FAQItem[] = [
     id: 'police-search-phone',
     category: 'Police & Arrest Rights',
     question: 'Can police search my mobile phone or force me to hand over my passcode/PIN?',
-    answer: 'Generally, police cannot force you to unlock your phone, provide your PIN code, or scan your face/fingerprint upon a routine street arrest or stop-and-search without a specific digital search warrant or an auxiliary order under federal legislation (such as a 3LA Order under the Crimes Act 1914 for Commonwealth matters). In NSW state matters, you are not required to give up your passcode merely because police ask. Always politely state that you wish to consult criminal counsel Adam Ashley before complying with device access demands.',
+    answer: 'Generally, police cannot force you to unlock your phone, provide your PIN code, or scan your face/fingerprint upon a routine street arrest or stop-and-search without a specific digital search warrant or an auxiliary order under federal legislation (such as a 3LA Order under the Crimes Act 1914 for Commonwealth matters). In NSW state matters, you are not required to give up your passcode merely because police ask. Always politely state that you wish to consult criminal lawyer Adam Ashley before complying with device access demands.',
     keywords: ['phone search', 'passcode', 'mobile phone PIN', 'digital privacy', 'warrant', '3LA order', 'unlock phone', 'cops looking through phone', 'pin code'],
     slangTags: ['#phone-pin-code', '#unlock-phone', '#cops-phone-search', '#digital-privacy', '#3la-order']
   },
@@ -91,7 +91,7 @@ export const ALL_FAQS: FAQItem[] = [
     id: 'traffic-blowing-over-dui',
     category: 'Drink & Drug Driving',
     question: 'What happens if I blew over the limit or got caught drink driving (DUI) in NSW?',
-    answer: 'In NSW, drink driving offences (PCA offences under the Road Transport Act 2013) carry immediate police licence suspensions, mandatory disqualification periods, substantial fines, and mandatory Alcohol Interlock orders. Offence brackets range from Novice/Special Range (over 0.00 or 0.02), Low Range (0.05 to 0.079), Mid Range (0.08 to 0.149), to High Range (0.150 and above). For Mid and High Range, the court may also consider custodial sentences unless strong mitigation and rehabilitation are presented by experienced counsel.',
+    answer: 'In NSW, drink driving offences (PCA offences under the Road Transport Act 2013) carry immediate police licence suspensions, mandatory disqualification periods, substantial fines, and mandatory Alcohol Interlock orders. Offence brackets range from Novice/Special Range (over 0.00 or 0.02), Low Range (0.05 to 0.079), Mid Range (0.08 to 0.149), to High Range (0.150 and above). For Mid and High Range, the court may also consider custodial sentences unless strong mitigation and rehabilitation are presented by an experienced defence lawyer.',
     keywords: ['blowing over', 'blew over', 'drink driving', 'dui', 'pca', 'over the limit', 'drunk driving', 'pissed driving', 'rbt', 'breath test', 'booze bus'],
     slangTags: ['#blowing-over', '#dui', '#drink-driving', '#rbt', '#over-the-limit', '#blew-over']
   },
@@ -175,7 +175,7 @@ export const ALL_FAQS: FAQItem[] = [
     id: 'bail-weekend-avl-court',
     category: 'Bail Applications',
     question: 'What happens at a Weekend Bail Court via Audio Visual Link (AVL)?',
-    answer: 'If you are arrested on a Friday night, weekend, or public holiday in the Northern Rivers (e.g. Tweed, Byron, or Lismore), police will hold you in cells and list your matter before the centralized Weekend Bail Court (often Parramatta Bail Court or regional AVL hub). The hearing takes place by Audio Visual Link. Having private defence counsel appear remotely or via agent ensures that detailed bail material, surety verification, and residential addresses are properly presented to the magistrate.',
+    answer: 'If you are arrested on a Friday night, weekend, or public holiday in the Northern Rivers (e.g. Tweed, Byron, or Lismore), police will hold you in cells and list your matter before the centralized Weekend Bail Court (often Parramatta Bail Court or regional AVL hub). The hearing takes place by Audio Visual Link. Having a private defence lawyer appear remotely or via agent ensures that detailed bail material, surety verification, and residential addresses are properly presented to the magistrate.',
     keywords: ['weekend bail court', 'Parramatta bail court', 'AVL bail', 'video link', 'after hours arrest', 'saturday court', 'sunday arrest', 'locked up weekend'],
     slangTags: ['#weekend-bail', '#parramatta-bail', '#avl-video-link', '#after-hours-arrest', '#weekend-cells']
   },
@@ -471,7 +471,7 @@ export const ALL_FAQS: FAQItem[] = [
     id: 'court-northern-rivers-locations',
     category: 'Court Process & Sentencing',
     question: 'What courts does Adam Ashley appear in across the Northern Rivers and NSW?',
-    answer: 'Principal Counsel Adam Ashley regularly appears in Local and District Courts across the Northern Rivers and Far North Coast, including Ballina Local Court, Byron Bay Local Court, Lismore Local and District Courts, Tweed Heads Local Court, Murwillumbah Local Court, Casino Local Court, Kyogle Local Court, Grafton Local and District Courts, Maclean Local Court, and Coffs Harbour. We also represent clients in major Sydney courts including the Downing Centre and Supreme Court.',
+    answer: 'Principal Solicitor Adam Ashley regularly appears in Local and District Courts across the Northern Rivers and Far North Coast, including Ballina Local Court, Byron Bay Local Court, Lismore Local and District Courts, Tweed Heads Local Court, Murwillumbah Local Court, Casino Local Court, Kyogle Local Court, Grafton Local and District Courts, Maclean Local Court, and Coffs Harbour. We also represent clients in major Sydney courts including the Downing Centre and Supreme Court.',
     keywords: ['Ballina court', 'Byron Bay court', 'Lismore court', 'Tweed Heads court', 'Northern Rivers lawyer', 'local lawyer', 'court appearances'],
     slangTags: ['#northern-rivers-courts', '#byron-bay-court', '#ballina-court', '#lismore-court', '#tweed-heads-court']
   },
@@ -523,7 +523,7 @@ export const ALL_FAQS: FAQItem[] = [
     id: 'fees-why-choose-adam-ashley',
     category: 'Legal Fees & Defence Team',
     question: 'Why choose Adam Ashley and Frontline Lawyers over a duty solicitor or Legal Aid?',
-    answer: 'While duty lawyers perform vital work, they often juggle dozens of complex cases on any single court morning with limited prep time. Principal Counsel Adam Ashley is recognized in Doyle\'s Guide as one of the state\'s premier criminal defence lawyers. When you retain Frontline Lawyers, your case receives exhaustive evidentiary analysis, bespoke defence strategy, senior representation at every hearing, and direct, responsive client communication.',
+    answer: 'While duty lawyers perform vital work, they often juggle dozens of complex cases on any single court morning with limited prep time. Principal Solicitor Adam Ashley is recognized in Doyle\'s Guide as one of the state\'s premier criminal defence lawyers. When you retain Frontline Lawyers, your case receives exhaustive evidentiary analysis, bespoke defence strategy, senior representation at every hearing, and direct, responsive client communication.',
     keywords: ['Doyles guide', 'Adam Ashley', 'private criminal solicitor', 'duty lawyer', 'legal aid vs private', 'top lawyer', 'best criminal lawyer'],
     slangTags: ['#doyles-guide', '#adam-ashley', '#private-criminal-lawyer', '#legal-aid-comparison']
   },
@@ -531,7 +531,7 @@ export const ALL_FAQS: FAQItem[] = [
     id: 'fees-interstate-clients',
     category: 'Legal Fees & Defence Team',
     question: 'Can Frontline Lawyers represent me if I live in Queensland or interstate with a NSW charge?',
-    answer: 'Yes. Many individuals visiting Byron Bay, Tweed Heads, or Northern Rivers from Brisbane, Gold Coast, Sydney, or Melbourne find themselves charged under NSW laws. Because NSW criminal law differs significantly from Queensland and other states, having experienced NSW criminal counsel is essential. We can manage your initial mentions remotely, obtain the police brief, and represent you in court so your travel is minimized.',
+    answer: 'Yes. Many individuals visiting Byron Bay, Tweed Heads, or Northern Rivers from Brisbane, Gold Coast, Sydney, or Melbourne find themselves charged under NSW laws. Because NSW criminal law differs significantly from Queensland and other states, having experienced a NSW criminal defence lawyer is essential. We can manage your initial mentions remotely, obtain the police brief, and represent you in court so your travel is minimized.',
     keywords: ['interstate lawyer', 'Queensland driver NSW court', 'Gold Coast to Tweed', 'remote court appearance', 'qld driver in nsw'],
     slangTags: ['#interstate-representation', '#queensland-driver-nsw', '#gold-coast-tweed', '#remote-court-appearance']
   },

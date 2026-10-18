@@ -1,12 +1,27 @@
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, Navigate } from 'react-router-dom';
 import { ArrowLeft, Phone, ShieldAlert, AlertTriangle, MapPin } from 'lucide-react';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import { practiceAreasData } from '../data/practiceAreas';
 import { EmergencyBanner } from '../components/EmergencyBanner';
 
+const slugRedirects: Record<string, string> = {
+  'avo': 'domestic-violence',
+  'stalk-intimidation': 'domestic-violence',
+  'domestic-violence-dvo': 'domestic-violence',
+  'domestic-violence-avo': 'domestic-violence',
+  'self-defence': 'assault-charges',
+  'manslaughter': 'murder-manslaughter',
+  'murder-charges': 'murder-manslaughter'
+};
+
 export function PracticeAreaDetail() {
   const { slug } = useParams<{ slug: string }>();
+
+  if (slug && slugRedirects[slug]) {
+    return <Navigate to={`/practice-areas/${slugRedirects[slug]}`} replace />;
+  }
+
   const area = practiceAreasData.find(a => a.slug === slug);
 
   if (!area) {

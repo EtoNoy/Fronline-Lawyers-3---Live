@@ -83,7 +83,7 @@ export function AboutAdamPage() {
                       Close Alliances with Senior Trial Barristers
                     </h3>
                     <p className="text-neutral-200 text-sm leading-relaxed">
-                      Adam maintains close professional relationships with leading criminal defence barristers (Senior Counsel & King's Counsel) across the Sydney, Brisbane, and regional Bars. When a trial or complex bail matter demands specialized appellate or jury advocacy, Adam teams directly with top-tier trial counsel to ensure an unassailable defence.
+                      Adam maintains close professional relationships with leading criminal defence barristers across the Sydney, Brisbane, and regional Bars. When a trial or complex bail matter demands specialized appellate or jury advocacy, Adam teams directly with top-tier trial barristers to ensure an unassailable defence.
                     </p>
                   </div>
 
@@ -133,7 +133,7 @@ export function AboutAdamPage() {
                       Local Regional Practice Across Northern Rivers & South East Queensland
                     </h3>
                     <p className="text-neutral-200 text-sm leading-relaxed">
-                      Adam regularly represents clients in local and magistrates courts across <strong>Murwillumbah, Tweed Heads, Kingscliff, Byron Bay, Ballina, Lismore, Mullumbimby, Ocean Shores, Pottsville, Casino, Kyogle, Southport, Coolangatta, Surfers Paradise, Burleigh Heads, Robina, Broadbeach, Beenleigh, and Brisbane</strong>.
+                      Adam regularly represents clients in local and magistrates courts across <strong>Murwillumbah, Tweed Heads, Kingscliff, Byron Bay, Ballina, Lismore, Maclean, Mullumbimby, Ocean Shores, Pottsville, Casino, Kyogle, Southport, Coolangatta, Surfers Paradise, Burleigh Heads, Robina, Broadbeach, Beenleigh, and Brisbane</strong>.
                     </p>
                   </div>
                 </div>
@@ -141,7 +141,7 @@ export function AboutAdamPage() {
                 <div className="mt-8 p-6 bg-charcoal-950 border-l-4 border-gold-400 rounded-r-sm">
                   <h4 className="text-lg font-serif text-white mb-2">Need Direct Representation from Adam Ashley?</h4>
                   <p className="text-sm text-neutral-200 mb-6">
-                    Exercise your right to silence. Connect directly with Principal Counsel Adam Ashley for confidential, strategic legal defence before attending any police station.
+                    Connect directly with Principal Lawyer Adam Ashley for confidential, strategic legal defence representation.
                   </p>
                   <a 
                     href="tel:0421066608" 
