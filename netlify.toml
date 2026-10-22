@@ -3,6 +3,51 @@
   command = "npm run build"
 
 [[redirects]]
+  from = "/practice-areas/centrelink-fraud"
+  to = "/practice-areas/fraud-financial-crime"
+  status = 301
+
+[[redirects]]
+  from = "/practice-areas/money-laundering"
+  to = "/practice-areas/fraud-financial-crime"
+  status = 301
+
+[[redirects]]
+  from = "/practice-areas/domestic-violence-dvo"
+  to = "/practice-areas/domestic-violence"
+  status = 301
+
+[[redirects]]
+  from = "/practice-areas/domestic-violence-avo"
+  to = "/practice-areas/domestic-violence"
+  status = 301
+
+[[redirects]]
+  from = "/practice-areas/avo"
+  to = "/practice-areas/domestic-violence"
+  status = 301
+
+[[redirects]]
+  from = "/practice-areas/stalk-intimidation"
+  to = "/practice-areas/domestic-violence"
+  status = 301
+
+[[redirects]]
+  from = "/practice-areas/self-defence"
+  to = "/practice-areas/assault-charges"
+  status = 301
+
+[[redirects]]
+  from = "/practice-areas/manslaughter"
+  to = "/practice-areas/murder-manslaughter"
+  status = 301
+
+[[redirects]]
+  from = "/practice-areas/murder-charges"
+  to = "/practice-areas/murder-manslaughter"
+  status = 301
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200

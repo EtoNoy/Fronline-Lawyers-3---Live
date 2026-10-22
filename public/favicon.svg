@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E5AB" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#AA7C11" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181B20" />
+      <stop offset="100%" stop-color="#08090B" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Dark Background -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bgGrad)" stroke="url(#goldGrad)" stroke-width="2.5" />
+  
+  <!-- Shield Contour -->
+  <path d="M32 11 L48 17 C48 33 39 45 32 50 C25 45 16 33 16 17 Z" fill="none" stroke="url(#goldGrad)" stroke-width="2.2" stroke-linejoin="round" />
+  
+  <!-- Scales of Justice Symbol -->
+  <!-- Top Finial -->
+  <circle cx="32" cy="18" r="1.8" fill="url(#goldGrad)" />
+  
+  <!-- Center Pillar -->
+  <line x1="32" y1="19" x2="32" y2="42" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Balance Beam -->
+  <line x1="23" y1="25" x2="41" y2="25" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Left Scale Pan Cords -->
+  <line x1="23" y1="25" x2="20" y2="34" stroke="url(#goldGrad)" stroke-width="1.2" />
+  <line x1="23" y1="25" x2="26" y2="34" stroke="url(#goldGrad)" stroke-width="1.2" />
+  <!-- Left Pan -->
+  <path d="M19 34 Q23 37.5 27 34 Z" fill="url(#goldGrad)" />
+  
+  <!-- Right Scale Pan Cords -->
+  <line x1="41" y1="25" x2="38" y2="34" stroke="url(#goldGrad)" stroke-width="1.2" />
+  <line x1="41" y1="25" x2="44" y2="34" stroke="url(#goldGrad)" stroke-width="1.2" />
+  <!-- Right Pan -->
+  <path d="M37 34 Q41 37.5 45 34 Z" fill="url(#goldGrad)" />
+  
+  <!-- Scale Pedestal Base -->
+  <path d="M26 42 L38 42 L36 44 L28 44 Z" fill="url(#goldGrad)" />
+  <line x1="25" y1="44" x2="39" y2="44" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" />
+</svg>

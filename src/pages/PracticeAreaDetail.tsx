@@ -12,7 +12,11 @@ const slugRedirects: Record<string, string> = {
   'domestic-violence-avo': 'domestic-violence',
   'self-defence': 'assault-charges',
   'manslaughter': 'murder-manslaughter',
-  'murder-charges': 'murder-manslaughter'
+  'murder-charges': 'murder-manslaughter',
+  'centrelink-fraud': 'fraud-financial-crime',
+  'money-laundering': 'fraud-financial-crime',
+  'commonwealth-fraud': 'fraud-financial-crime',
+  'proceeds-of-crime': 'fraud-financial-crime'
 };
 
 export function PracticeAreaDetail() {
@@ -106,14 +110,14 @@ export function PracticeAreaDetail() {
                     Need to Contact a Lawyer?
                   </h3>
                   <p className="text-neutral-100 text-sm sm:text-base leading-relaxed mb-4">
-                    Our principal lawyer Adam Ashley and our dedicated defence team provide urgent station attendance, bail advocacy, and court representation across:
+                    Our principal lawyer Adam Ashley and our dedicated defence team provide strategic legal advice, bail advocacy, and court representation across:
                   </p>
                   
                   {/* Surrounding local places tags for client reassurance */}
                   <div className="flex flex-wrap gap-2 mb-6">
                     {[
                       'Murwillumbah', 'Tweed Heads', 'Kingscliff', 'Byron Bay', 'Ballina', 
-                      'Lismore', 'Mullumbimby', 'Ocean Shores', 'Pottsville', 'Casino', 
+                      'Lismore', 'Maclean', 'Mullumbimby', 'Ocean Shores', 'Pottsville', 'Casino', 
                       'Kyogle', 'Southport', 'Coolangatta', 'Surfers Paradise', 'Burleigh Heads', 
                       'Robina', 'Broadbeach', 'Palm Beach', 'Beenleigh', 'Brisbane'
                     ].map((town, idx) => (

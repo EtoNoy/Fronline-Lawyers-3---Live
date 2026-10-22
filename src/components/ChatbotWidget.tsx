@@ -77,7 +77,7 @@ function getHardcodedConciergeResponse(userInput: string): string {
     lower.includes('statement') ||
     lower.includes('silence')
   ) {
-    return "Under Section 89 of the Evidence Act and LEPRA, individuals have the right to silence and are legally required to provide only their name, address, and driver licence (if driving). You are not required to participate in an electronically recorded interview (ERISP) or answer police questions.\n\nFrontline Lawyers provides prompt police station attendance and legal representation across Northern Rivers NSW and South East Queensland. Contact our defence team to arrange legal representation.\n[SHOW_CONTACT_BUTTON]";
+    return "Under Section 89 of the Evidence Act and LEPRA, individuals have the right to silence and are legally required to provide only their name, address, and driver licence (if driving). You are not required to participate in an electronically recorded interview (ERISP) or answer police questions.\n\nFrontline Lawyers provides prompt legal advice and pre-interview defence representation across Northern Rivers NSW and South East Queensland. Contact our defence team to arrange legal representation.\n[SHOW_CONTACT_BUTTON]";
   }
 
   // 2. Court appearance / court date / summons / mention / trial
@@ -169,7 +169,7 @@ function getHardcodedConciergeResponse(userInput: string): string {
     lower.includes('rate') || 
     lower.includes('how much')
   ) {
-    return "Frontline Lawyers offers transparent fee structures for standard court mentions, bail applications, sentence hearings, and police station attendances. For complex trials, we collaborate closely with Australia's leading criminal defence barristers.\n\nPlease provide your details below and our partners will review your matter and contact you to arrange an initial conference.\n[SHOW_CONTACT_BUTTON]";
+    return "Frontline Lawyers offers transparent fee structures for standard court mentions, bail applications, and sentence hearings. For complex trials, we collaborate closely with Australia's leading criminal defence barristers.\n\nPlease provide your details below and our partners will review your matter and contact you to arrange an initial conference.\n[SHOW_CONTACT_BUTTON]";
   }
 
   // 9. Speak to partner / Adam Ashley / arrange consultation / appointment
@@ -200,7 +200,7 @@ export function ChatbotWidget({ onInquirySubmitted }: ChatbotWidgetProps = {}) {
     {
       id: 'msg-welcome',
       role: 'assistant',
-      content: "Welcome to Frontline Lawyers. I am your legal concierge.\n\nWhether you are facing police questioning, an upcoming court appearance, or urgent charges, our principal solicitor Adam Ashley is here to protect your rights. How can we assist you today?",
+      content: "Welcome to Frontline Lawyers. I am your legal concierge.\n\nWhether you are facing police questioning, an upcoming court appearance, or urgent charges, our principal lawyer Adam Ashley is here to protect your rights. How can we assist you today?",
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
     }
   ]);
@@ -816,7 +816,7 @@ export function ChatbotWidget({ onInquirySubmitted }: ChatbotWidgetProps = {}) {
                           onChange={(e) => setCaseType(e.target.value)}
                           className="w-full bg-charcoal-900 border border-white/10 rounded-xl px-2.5 py-1.5 text-xs text-white focus:outline-none focus:border-gold-400"
                         >
-                          <option value="Police Interview / Arrest">Police Interview / Station</option>
+                          <option value="Police Interview / Arrest">Police Interview / Questioning</option>
                           <option value="Court Attendance Notice">Court Appearance</option>
                           <option value="Bail Application">Bail Application</option>
                           <option value="Drink Driving / Traffic">DUI / Traffic Offence</option>
@@ -836,7 +836,7 @@ export function ChatbotWidget({ onInquirySubmitted }: ChatbotWidgetProps = {}) {
                         rows={2}
                         value={notes}
                         onChange={(e) => setNotes(e.target.value)}
-                        placeholder="e.g. Tweed Heads Police Station, court date next week..."
+                        placeholder="e.g. Tweed Heads court date next week, charges..."
                         className="w-full bg-charcoal-900 border border-white/10 rounded-xl p-2.5 text-xs text-white placeholder-gray-500 focus:outline-none focus:border-gold-400 resize-none"
                       />
                     </div>

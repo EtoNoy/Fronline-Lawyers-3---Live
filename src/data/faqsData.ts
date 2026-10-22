@@ -538,10 +538,10 @@ export const ALL_FAQS: FAQItem[] = [
   {
     id: 'fees-24-7-police-emergency',
     category: 'Legal Fees & Defence Team',
-    question: 'Do you offer emergency after-hours police station attendance in Northern Rivers?',
-    answer: 'Yes. Criminal arrests and police raids happen at all hours of the night and weekend. Frontline Lawyers provides emergency on-call legal representation. If you or a loved one are in custody at Byron Bay, Ballina, Tweed Heads, or Lismore police stations, we can provide immediate telephone legal advice and attend the station in person to safeguard your rights.',
-    keywords: ['emergency criminal lawyer', 'after hours police station lawyer', 'after hours arrest', 'custody lawyer', 'night lawyer', 'police station call'],
-    slangTags: ['#emergency-criminal-lawyer', '#after-hours-legal-advice', '#police-station-attendance', '#custody-lawyer']
+    question: 'Do you offer emergency after-hours advice if someone is arrested in Northern Rivers or South East Queensland?',
+    answer: 'Yes. Criminal arrests and police questioning happen at all hours of the night and weekend. Frontline Lawyers provides prompt legal advice to protect your rights. If you or a loved one are being questioned or held in custody across Byron Bay, Ballina, Tweed Heads, Lismore, or Gold Coast, we provide immediate telephone legal advice to ensure you do not make prejudicial statements before speaking with a defence lawyer.',
+    keywords: ['emergency criminal lawyer', 'after hours arrest lawyer', 'after hours arrest', 'custody lawyer', 'night lawyer', 'urgent legal advice'],
+    slangTags: ['#emergency-criminal-lawyer', '#after-hours-legal-advice', '#urgent-legal-defence', '#custody-lawyer']
   },
   {
     id: 'fees-legal-confidentiality',

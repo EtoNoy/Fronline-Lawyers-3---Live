@@ -10,7 +10,7 @@ const faqs = [
   },
   {
     q: "The police want to interview me. What should I do?",
-    a: "Under Section 89 of the Evidence Act, individuals have the right to silence and are not required to participate in an electronically recorded interview (ERISP). Statements made in interviews become part of the prosecution brief. Frontline Lawyers provides direct legal representation to speak directly with investigating officers and attend police stations across Northern Rivers and South East Queensland."
+    a: "Under Section 89 of the Evidence Act, individuals have the right to silence and are not required to participate in an electronically recorded interview (ERISP). Statements made in interviews become part of the prosecution brief. Frontline Lawyers provides strategic legal advice and communicates directly with investigating officers to safeguard your legal rights across Northern Rivers and South East Queensland."
   },
   {
     q: "What is the difference between pleading guilty and going to trial?",
@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: "How does Frontline Lawyers structure fees?",
-    a: "We operate on transparent, upfront fixed-fee arrangements for Local Court appearances, bail applications, sentence hearings, and police station attendances, as well as clear cost agreements for complex trials. We also work closely with Australia's premier criminal defence barristers. Your future is invaluable, and our transparent pricing provides complete certainty without hidden surprises."
+    a: "We operate on transparent, upfront fixed-fee arrangements for Local Court appearances, bail applications, and sentence hearings, as well as clear cost agreements for complex trials. We also work closely with Australia's premier criminal defence barristers. Your future is invaluable, and our transparent pricing provides complete certainty without hidden surprises."
   },
   {
     q: "Will a criminal conviction affect my employment or international travel?",

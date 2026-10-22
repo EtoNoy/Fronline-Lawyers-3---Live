@@ -33,7 +33,7 @@ export function Navbar() {
             <img 
               src={frontlineLogo} 
               alt="Frontline Lawyers Logo" 
-              className={`h-7 md:h-8 w-auto object-contain transition-all duration-300 ${isScrolled ? 'filter brightness-110' : 'invert brightness-0'}`}
+              className={`h-7 md:h-8 w-auto object-contain transition-all duration-300 ${isScrolled ? 'filter brightness-110' : 'invert brightness-0'}`} 
               referrerPolicy="no-referrer"
             />
           </Link>
@@ -50,7 +50,7 @@ export function Navbar() {
 
         {/* Action Button & Mobile Toggle */}
         <div className="flex md:hidden lg:flex items-center justify-end gap-3 z-50 relative">
-          <a href="tel:0421066608" className="hidden lg:flex items-center gap-2 bg-gold-400 hover:bg-gold-500 text-white px-5 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors">
+          <a href="tel:0421066608" className="hidden lg:flex items-center gap-2 bg-gold-400 hover:bg-gold-500 text-white px-5 py-2.5 text-xs font-bold uppercase tracking-widest transition-colors shadow-lg">
             <Phone className="w-4 h-4" />
             <span>0421 066 608</span>
           </a>

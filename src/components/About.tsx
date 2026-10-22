@@ -88,7 +88,7 @@ export function About() {
                 'Highly recommended in Doyle’s Guide',
                 'Admitted NSW & QLD Supreme Courts',
                 'Deeply connected with top trial barristers',
-                'Dedicated police station representation'
+                'Strategic pre-charge & trial defence'
               ].map((item, i) => (
                 <li key={i} className="flex items-center gap-3 text-white">
                   <Award className="w-4 h-4 text-gold-300 shrink-0" />

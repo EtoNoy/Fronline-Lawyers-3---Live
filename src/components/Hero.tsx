@@ -1,13 +1,13 @@
 import { ArrowRight, ShieldAlert } from 'lucide-react';
 // @ts-ignore
-import frontlineBackground from '../assets/images/Frontline Lawyers Image (1).jpg';
+import frontlineBackground from '../assets/images/Fronline New Testing Image.png';
 
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-start sm:items-center justify-start pt-32 sm:pt-20 overflow-hidden bg-charcoal-950">
-      {/* Background image */}
+      {/* Background image - natural exposure with light horizon positioning, zero darkening gradients */}
       <div 
-        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-100"
+        className="absolute inset-0 z-0 bg-cover bg-[center_28%] bg-no-repeat opacity-100 filter brightness-[1.12] contrast-[0.98]"
         style={{ backgroundImage: `url("${frontlineBackground}")` }}
       ></div>
       
@@ -23,21 +23,21 @@ export function Hero() {
             <span className="text-xs md:text-sm tracking-[0.38em] uppercase text-gold-600 font-sans font-bold mt-2 sm:mt-4 leading-none block drop-shadow-sm">Lawyers</span>
           </h1>
 
-          <p className="text-xs sm:text-base md:text-xl text-neutral-800 mb-4 sm:mb-8 md:mb-10 max-w-2xl font-semibold leading-relaxed text-left drop-shadow-sm">
+          <p className="text-xs sm:text-base md:text-xl text-charcoal-950 mb-4 sm:mb-8 md:mb-10 max-w-2xl font-semibold leading-relaxed text-left hero-black-text">
             Straightforward legal representation to protect your rights, livelihood, and future. From our base in Murwillumbah, we represent clients throughout the Northern Rivers NSW and South East Queensland, appearing in local and magistrates courts across Murwillumbah, Tweed Heads, Ballina, Byron Bay, Mullumbimby, Lismore, Maclean, Southport, Coolangatta, and Brisbane.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-start w-auto">
             <a 
               href="#contact" 
-              className="group inline-flex items-center justify-center gap-2.5 bg-black border border-black text-white px-5 py-2.5 sm:px-8 sm:py-4 text-[11px] sm:text-xs font-bold tracking-widest uppercase hover:bg-charcoal-900 transition-colors duration-300 shadow-lg rounded-sm w-auto self-start"
+              className="group inline-flex items-center justify-center gap-2.5 bg-black border border-black text-white px-5 py-2.5 sm:px-8 sm:py-4 text-[11px] sm:text-xs font-bold tracking-widest uppercase hover:bg-charcoal-900 transition-colors duration-300 shadow-xl rounded-sm w-auto self-start"
             >
               Contact Us
               <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" />
             </a>
             <a 
               href="tel:0421066608" 
-              className="hidden sm:flex items-center justify-center gap-3 bg-gold-500 text-white px-8 py-4 text-xs font-bold tracking-widest uppercase hover:bg-gold-600 transition-colors duration-300 rounded-sm"
+              className="hidden sm:flex items-center justify-center gap-3 bg-gold-500 text-white px-8 py-4 text-xs font-bold tracking-widest uppercase hover:bg-gold-600 transition-colors duration-300 rounded-sm shadow-md"
             >
               Call: 0421 066 608
             </a>

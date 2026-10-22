@@ -109,7 +109,7 @@ export function PracticeAreas() {
               Under Arrest, Being Questioned, or Given a Court Date?
             </h4>
             <p className="text-neutral-200 text-sm mt-1 max-w-2xl">
-              You are not required to answer police questions. You should contact a lawyer before attending any police station or entering a plea in court.
+              You are not required to answer police questions. You should contact a lawyer before speaking with police or entering a plea in court.
             </p>
           </div>
           <a 

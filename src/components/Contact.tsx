@@ -100,7 +100,7 @@ export function Contact() {
                 <div>
                   <h4 className="text-white text-lg font-serif mb-1">Jurisdiction & Court Coverage</h4>
                   <p className="text-neutral-200 text-sm leading-relaxed">
-                    Priority court appearances and station attendances across <strong className="text-white">Tweed Heads, Murwillumbah, Kingscliff, Byron Bay, Ballina, Lismore, Maclean, Mullumbimby, Ocean Shores, Pottsville, Casino</strong>, through to <strong className="text-white">Coolangatta, Southport, Surfers Paradise, Burleigh Heads, Robina, Broadbeach, Beenleigh, and Brisbane</strong>.
+                    Priority court appearances and defence representation across <strong className="text-white">Tweed Heads, Murwillumbah, Kingscliff, Byron Bay, Ballina, Lismore, Maclean, Mullumbimby, Ocean Shores, Pottsville, Casino</strong>, through to <strong className="text-white">Coolangatta, Southport, Surfers Paradise, Burleigh Heads, Robina, Broadbeach, Beenleigh, and Brisbane</strong>.
                   </p>
                   <p className="text-neutral-300 text-xs mt-2 border-t border-white/10 pt-2">
                     Mailing Address: P.O Box 104 Murwillumbah, 2484, NSW
@@ -257,7 +257,7 @@ export function Contact() {
 
                   <div>
                     <label htmlFor="details" className="block text-xs font-bold tracking-wider uppercase text-neutral-100 mb-2">
-                      Brief Matter Details (Station, court date, charges)
+                      Brief Matter Details (Court date, charges, or inquiry)
                     </label>
                     <textarea 
                       id="details" 
@@ -265,7 +265,7 @@ export function Contact() {
                       value={details} 
                       onChange={(e) => setDetails(e.target.value)} 
                       className="w-full bg-charcoal-900 border border-white/15 px-4 py-3 text-sm text-white placeholder-neutral-500 focus:outline-none focus:border-gold-400 transition-colors resize-none rounded-sm" 
-                      placeholder="e.g. Attending Tweed Heads Police Station, court date next Tuesday..." 
+                      placeholder="e.g. Tweed Heads court date next Tuesday, driving charge..." 
                     />
                   </div>
 

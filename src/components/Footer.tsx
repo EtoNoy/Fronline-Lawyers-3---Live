@@ -42,14 +42,12 @@ export function Footer() {
           <div>
             <h4 className="text-white font-serif mb-6 text-lg font-bold">Areas of Expertise</h4>
             <ul className="space-y-3 text-sm text-neutral-200 font-medium">
-              <li><Link to="/practice-areas/drink-driving-dui" className="hover:text-gold-300 transition-colors">Drink Driving</Link></li>
+              <li><Link to="/practice-areas/drink-driving-dui" className="hover:text-gold-300 transition-colors">Drink and / or Drug Driving</Link></li>
               <li><Link to="/practice-areas/drug-offences" className="hover:text-gold-300 transition-colors">Drug Possession & Supply</Link></li>
-              <li><Link to="/practice-areas/traffic-offences" className="hover:text-gold-300 transition-colors">Traffic Offences</Link></li>
-              <li><Link to="/practice-areas/licence-matters" className="hover:text-gold-300 transition-colors">Licence Suspensions & Appeals</Link></li>
-              <li><Link to="/practice-areas/domestic-violence" className="hover:text-gold-300 transition-colors">Domestic Violence & AVOs</Link></li>
               <li><Link to="/practice-areas/assault-charges" className="hover:text-gold-300 transition-colors">Assault & Violent Offences</Link></li>
-              <li><Link to="/practice-areas/bail-matters" className="hover:text-gold-300 transition-colors">Bail Applications</Link></li>
-              <li><Link to="/practice-areas/police-matters" className="hover:text-gold-300 transition-colors">Police Questioning & Rights</Link></li>
+              <li><Link to="/practice-areas/court-hearings-trials" className="hover:text-gold-300 transition-colors">Court Hearings & Trials</Link></li>
+              <li><Link to="/practice-areas/police-matters" className="hover:text-gold-300 transition-colors">Police Matters</Link></li>
+              <li><a href="/#practice-areas" className="inline-flex items-center gap-1.5 text-gold-300 hover:text-white font-semibold transition-colors">View All Areas of Expertise &rarr;</a></li>
             </ul>
           </div>
 
