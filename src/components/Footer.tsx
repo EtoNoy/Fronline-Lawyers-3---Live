@@ -15,6 +15,7 @@ export function Footer() {
                 src={frontlineLogo} 
                 alt="Frontline Lawyers Logo" 
                 className="h-10 w-auto object-contain filter brightness-110"
+                loading="lazy"
                 referrerPolicy="no-referrer"
               />
             </Link>

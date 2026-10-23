@@ -1,15 +1,15 @@
 import { ArrowRight, Award, Shield } from 'lucide-react';
 import { Link } from 'react-router-dom';
 // @ts-ignore
-import adamAshleyPhoto from '../assets/images/adamashleyphoto.jpeg';
+import adamAshleyPhoto from '../assets/images/adam-ashley.webp';
 // @ts-ignore
-import dg2023 from '../assets/images/DG Doyles Guide 2023 no. 2.png';
+import dg2023 from '../assets/images/doyles-2023.webp';
 // @ts-ignore
-import dg2024 from '../assets/images/DG 2024.png';
+import dg2024 from '../assets/images/doyles-2024.webp';
 // @ts-ignore
-import dg2025 from '../assets/images/DG 2025.png';
+import dg2025 from '../assets/images/doyles-2025.webp';
 // @ts-ignore
-import dg2026 from '../assets/images/DG 2026.png';
+import dg2026 from '../assets/images/doyles-2026.webp';
 
 const doyleBadges = [
   { img: dg2023, year: '2023', alt: "Doyle's Guide 2023 Criminal Defence" },
@@ -30,6 +30,7 @@ export function About() {
                 src={adamAshleyPhoto} 
                 alt="Adam Ashley - Principal Criminal Defence Lawyer" 
                 className="w-full h-full object-cover object-top transition-all duration-700"
+                loading="lazy"
                 referrerPolicy="no-referrer"
               />
             </div>
@@ -73,6 +74,7 @@ export function About() {
                       src={badge.img} 
                       alt={badge.alt} 
                       className="h-12 sm:h-14 w-auto object-contain"
+                      loading="lazy"
                       referrerPolicy="no-referrer"
                     />
                     <span className="text-[10px] font-bold uppercase tracking-wider text-charcoal-900 mt-1">

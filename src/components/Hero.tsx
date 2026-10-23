@@ -1,13 +1,31 @@
+import { useState, useEffect } from 'react';
 import { ArrowRight, ShieldAlert } from 'lucide-react';
 // @ts-ignore
-import frontlineBackground from '../assets/images/Fronline New Testing Image.png';
+import frontlineBackground from '../assets/images/hero-background.webp';
 
 export function Hero() {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  useEffect(() => {
+    const img = new Image();
+    img.src = frontlineBackground;
+    if (img.complete) {
+      setImageLoaded(true);
+    } else {
+      img.onload = () => setImageLoaded(true);
+    }
+  }, []);
+
   return (
-    <section className="relative min-h-screen flex items-start sm:items-center justify-start pt-32 sm:pt-20 overflow-hidden bg-charcoal-950">
-      {/* Background image - natural exposure with light horizon positioning, zero darkening gradients */}
+    <section 
+      className="relative min-h-screen flex items-start sm:items-center justify-start pt-32 sm:pt-20 overflow-hidden"
+      style={{ background: 'linear-gradient(to bottom, #c8dbee 45%, #537391)' }}
+    >
+      {/* Background image - natural exposure with light horizon positioning, zero darkening gradients, smoothly fades in */}
       <div 
-        className="absolute inset-0 z-0 bg-cover bg-[center_28%] bg-no-repeat opacity-100 filter brightness-[1.12] contrast-[0.98]"
+        className={`absolute inset-0 z-0 bg-cover bg-[center_28%] bg-no-repeat filter brightness-[1.12] contrast-[0.98] transition-opacity duration-700 ease-out ${
+          imageLoaded ? 'opacity-100' : 'opacity-0'
+        }`}
         style={{ backgroundImage: `url("${frontlineBackground}")` }}
       ></div>
       
